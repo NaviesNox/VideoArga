@@ -41,7 +41,7 @@ html_out = f"""<template>
     .cap-stage {{
       position: absolute;
       left: 150px;
-      top: 1124px;
+      top: 1340px;
       width: 740px;
       height: 120px;
       overflow: visible;

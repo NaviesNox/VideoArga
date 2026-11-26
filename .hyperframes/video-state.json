@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "10896837-3dbe-4206-82bc-f3f2097965c4",
-  "currentRevision": "b8d42090-8384-40f6-b2b0-5e983c59596d",
+  "currentRevision": "07b1da95-c202-453b-a83e-6ddc9be8064e",
   "pendingChanges": false,
   "files": {
     "SPEC.md": {
@@ -97,28 +97,28 @@
       "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\81\\81d854ff234cb5af50e20d0f7b15ade0c747af98bf672e2d61d9c829723f7f50"
     },
     "compositions/act0-hook.html": {
-      "hash": "36e8fca1d0037ab857fd304ca4939d4f53ff6fb1032efff954c6e7f5b0eb0df1",
-      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\36\\36e8fca1d0037ab857fd304ca4939d4f53ff6fb1032efff954c6e7f5b0eb0df1"
+      "hash": "32e94b3518b92daa6829342cfabb8459c8e5bd8c1336e9a8272e0f980b90d808",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\32\\32e94b3518b92daa6829342cfabb8459c8e5bd8c1336e9a8272e0f980b90d808"
     },
     "compositions/act1-2005.html": {
-      "hash": "b8b431e76fdc02b140b2afcf25939202f1805764368e33863f0731edd5a89b65",
-      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\b8\\b8b431e76fdc02b140b2afcf25939202f1805764368e33863f0731edd5a89b65"
+      "hash": "46ae66fd1a6cb806f37b80d35c0ac2c2dcbafed03747cef87c7daafc22c0e680",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\46\\46ae66fd1a6cb806f37b80d35c0ac2c2dcbafed03747cef87c7daafc22c0e680"
     },
     "compositions/act2-numbers.html": {
-      "hash": "71d3b7d2d92d8fc22fb57ae7ab3997fdf2651b43150080e1dd6613793d075a60",
-      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\71\\71d3b7d2d92d8fc22fb57ae7ab3997fdf2651b43150080e1dd6613793d075a60"
+      "hash": "37da2915f39410231d7be745b72248b9f6800779639623a9265c25f016394afc",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\37\\37da2915f39410231d7be745b72248b9f6800779639623a9265c25f016394afc"
     },
     "compositions/act3-today.html": {
-      "hash": "227fe528ad111c8668e8fb68935e066009367f3ed358ca7b0dd2fe2a8fd1d808",
-      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\22\\227fe528ad111c8668e8fb68935e066009367f3ed358ca7b0dd2fe2a8fd1d808"
+      "hash": "29925048b47a1a27945f0a2f960fa2e2baeeb70d9f1691f70f46aa6cb37ae8b0",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\29\\29925048b47a1a27945f0a2f960fa2e2baeeb70d9f1691f70f46aa6cb37ae8b0"
     },
     "compositions/act4-outro.html": {
-      "hash": "86d8214de63b48793b8bbbc49dde594073f61ea5d85e61fbc75cb604961c35c7",
-      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\86\\86d8214de63b48793b8bbbc49dde594073f61ea5d85e61fbc75cb604961c35c7"
+      "hash": "7ca99ec1a3c2d555612bb0d4339b094e571990edc1126e6b12558b7c1fe06bbb",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\7c\\7ca99ec1a3c2d555612bb0d4339b094e571990edc1126e6b12558b7c1fe06bbb"
     },
     "compositions/captions.html": {
-      "hash": "b85b67dfe42c7b5c18cd4f7b5c3a02c2cdd4450bd562ffa958a6ef7bca6c69d6",
-      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\b8\\b85b67dfe42c7b5c18cd4f7b5c3a02c2cdd4450bd562ffa958a6ef7bca6c69d6"
+      "hash": "fe4db5f94b78e0ab472c58405fd4ed4e6f9becbdc4f524f7deb38b81deb1baca",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\fe\\fe4db5f94b78e0ab472c58405fd4ed4e6f9becbdc4f524f7deb38b81deb1baca"
     },
     "docs/script.md": {
       "hash": "6bdfac02cea2cc3a19148c4656dd149022cae6b5c2cff236091b6bb67f3e0210",
@@ -149,8 +149,8 @@
       "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\05\\05b4daf88a62710aa22386c2564a5bf49e6faa2cda93ea2a129a72d56433527b"
     },
     "scripts/ffmpeg/generate_captions_comp.py": {
-      "hash": "3174c10e8c72c8748c55284364cd0a61c59a2373363313b0d7830e45f92757a0",
-      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\31\\3174c10e8c72c8748c55284364cd0a61c59a2373363313b0d7830e45f92757a0"
+      "hash": "471f19274b103e186a4a68fbc9854bcf52a38055ace61db2dd4644f9249ad308",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\47\\471f19274b103e186a4a68fbc9854bcf52a38055ace61db2dd4644f9249ad308"
     },
     "scripts/ffmpeg/parse_transcripts.py": {
       "hash": "a687bbb54e307ea92e8fcead4ca62d270289213e7b496789537ab9ab3cf9b2a3",
@@ -255,6 +255,54 @@
     "temp/rupiah_verify/frame-01-at-148.5s.png": {
       "hash": "0caac5d773652fb161250ce0dfd85578e3d517f988557b216710947fc96ae398",
       "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\0c\\0caac5d773652fb161250ce0dfd85578e3d517f988557b216710947fc96ae398"
+    },
+    "temp/face_check/f0_10s.jpg": {
+      "hash": "b67b6cb112fb3f1bba52af5f6ea088555ae210cf518eb94f896f486298d38635",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\b6\\b67b6cb112fb3f1bba52af5f6ea088555ae210cf518eb94f896f486298d38635"
+    },
+    "temp/face_check/f1_20s.jpg": {
+      "hash": "af49f4a7c92dba77ef5c6bcc96cd9af148416431fd0412709d21bac2fc66a0c2",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\af\\af49f4a7c92dba77ef5c6bcc96cd9af148416431fd0412709d21bac2fc66a0c2"
+    },
+    "temp/face_check/f2_38s.jpg": {
+      "hash": "68d065b8f32c424c8b705012513f75791ed2617d1d3a2fd9ad355f62e1e082fe",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\68\\68d065b8f32c424c8b705012513f75791ed2617d1d3a2fd9ad355f62e1e082fe"
+    },
+    "temp/face_check/f3_75s.jpg": {
+      "hash": "160878890b6ae45b529ffc51252c0930a18b346f7d5ccdfd96093447ad7dba57",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\16\\160878890b6ae45b529ffc51252c0930a18b346f7d5ccdfd96093447ad7dba57"
+    },
+    "temp/face_check/f4_222s.jpg": {
+      "hash": "c2584190000f2d08e54f2fe44faf3ac91e0cc68170b87b72ff7ac123a56374ef",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\c2\\c2584190000f2d08e54f2fe44faf3ac91e0cc68170b87b72ff7ac123a56374ef"
+    },
+    "temp/face_check/f5_325s.jpg": {
+      "hash": "8baf9288618a182ae774cc721e24860fadc06fda9d8502011a0547260bdb354a",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\8b\\8baf9288618a182ae774cc721e24860fadc06fda9d8502011a0547260bdb354a"
+    },
+    "temp/face_check/grid.jpg": {
+      "hash": "01a6b9ce28da3f81d9e6303d677be1d2504ffbd28b1a22b4bb078da55e1f3466",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\01\\01a6b9ce28da3f81d9e6303d677be1d2504ffbd28b1a22b4bb078da55e1f3466"
+    },
+    "temp/lower_cap_verify/frame-00-at-20s.png": {
+      "hash": "a1953a752e09876c1e3dbccb313d7686dd945c5c235f0fe1ca5d0b7f99b580b2",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\a1\\a1953a752e09876c1e3dbccb313d7686dd945c5c235f0fe1ca5d0b7f99b580b2"
+    },
+    "temp/lower_cap_verify/frame-01-at-38s.png": {
+      "hash": "0fbb588c9151394161b140757cefb43cadf2ed4fbb25c00571b807c708bf6d85",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\0f\\0fbb588c9151394161b140757cefb43cadf2ed4fbb25c00571b807c708bf6d85"
+    },
+    "temp/lower_cap_verify/frame-02-at-75s.png": {
+      "hash": "2212f2b97f20811f4719967f63389671edf281b99b5c0fabf3330a832c0b1124",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\22\\2212f2b97f20811f4719967f63389671edf281b99b5c0fabf3330a832c0b1124"
+    },
+    "temp/lower_cap_verify/frame-03-at-325s.png": {
+      "hash": "dbd0c0ea08a638254906206992aab487f51ed0aed2d1043cd0a06627669a7589",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\db\\dbd0c0ea08a638254906206992aab487f51ed0aed2d1043cd0a06627669a7589"
+    },
+    "temp/lower_cap_verify/contact-sheet.jpg": {
+      "hash": "58296cb933b6192c54c84bcb2308e50ac94957b1cf0aba29f2b9423012773c2a",
+      "content": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\58\\58296cb933b6192c54c84bcb2308e50ac94957b1cf0aba29f2b9423012773c2a"
     }
   },
   "revisions": {
@@ -641,6 +689,104 @@
           "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\0c\\0caac5d773652fb161250ce0dfd85578e3d517f988557b216710947fc96ae398"
         }
       }
+    },
+    "0d59f063-e748-4a8f-bf77-80dee1887886": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795698824432,
+      "endedAt": 1795698824581,
+      "files": {
+        "compositions/act0-hook.html": {
+          "before": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\36\\36e8fca1d0037ab857fd304ca4939d4f53ff6fb1032efff954c6e7f5b0eb0df1",
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\32\\32e94b3518b92daa6829342cfabb8459c8e5bd8c1336e9a8272e0f980b90d808"
+        },
+        "compositions/act1-2005.html": {
+          "before": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\b8\\b8b431e76fdc02b140b2afcf25939202f1805764368e33863f0731edd5a89b65",
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\46\\46ae66fd1a6cb806f37b80d35c0ac2c2dcbafed03747cef87c7daafc22c0e680"
+        },
+        "compositions/act2-numbers.html": {
+          "before": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\71\\71d3b7d2d92d8fc22fb57ae7ab3997fdf2651b43150080e1dd6613793d075a60",
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\37\\37da2915f39410231d7be745b72248b9f6800779639623a9265c25f016394afc"
+        },
+        "compositions/act3-today.html": {
+          "before": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\22\\227fe528ad111c8668e8fb68935e066009367f3ed358ca7b0dd2fe2a8fd1d808",
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\29\\29925048b47a1a27945f0a2f960fa2e2baeeb70d9f1691f70f46aa6cb37ae8b0"
+        },
+        "compositions/act4-outro.html": {
+          "before": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\86\\86d8214de63b48793b8bbbc49dde594073f61ea5d85e61fbc75cb604961c35c7",
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\7c\\7ca99ec1a3c2d555612bb0d4339b094e571990edc1126e6b12558b7c1fe06bbb"
+        },
+        "compositions/captions.html": {
+          "before": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\b8\\b85b67dfe42c7b5c18cd4f7b5c3a02c2cdd4450bd562ffa958a6ef7bca6c69d6",
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\fe\\fe4db5f94b78e0ab472c58405fd4ed4e6f9becbdc4f524f7deb38b81deb1baca"
+        },
+        "scripts/ffmpeg/generate_captions_comp.py": {
+          "before": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\31\\3174c10e8c72c8748c55284364cd0a61c59a2373363313b0d7830e45f92757a0",
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\47\\471f19274b103e186a4a68fbc9854bcf52a38055ace61db2dd4644f9249ad308"
+        },
+        "temp/face_check/f0_10s.jpg": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\b6\\b67b6cb112fb3f1bba52af5f6ea088555ae210cf518eb94f896f486298d38635"
+        },
+        "temp/face_check/f1_20s.jpg": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\af\\af49f4a7c92dba77ef5c6bcc96cd9af148416431fd0412709d21bac2fc66a0c2"
+        },
+        "temp/face_check/f2_38s.jpg": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\68\\68d065b8f32c424c8b705012513f75791ed2617d1d3a2fd9ad355f62e1e082fe"
+        },
+        "temp/face_check/f3_75s.jpg": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\16\\160878890b6ae45b529ffc51252c0930a18b346f7d5ccdfd96093447ad7dba57"
+        },
+        "temp/face_check/f4_222s.jpg": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\c2\\c2584190000f2d08e54f2fe44faf3ac91e0cc68170b87b72ff7ac123a56374ef"
+        },
+        "temp/face_check/f5_325s.jpg": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\8b\\8baf9288618a182ae774cc721e24860fadc06fda9d8502011a0547260bdb354a"
+        },
+        "temp/face_check/grid.jpg": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\01\\01a6b9ce28da3f81d9e6303d677be1d2504ffbd28b1a22b4bb078da55e1f3466"
+        }
+      }
+    },
+    "07b1da95-c202-453b-a83e-6ddc9be8064e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795698903651,
+      "endedAt": 1795698903730,
+      "files": {
+        "temp/lower_cap_verify/contact-sheet.jpg": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\58\\58296cb933b6192c54c84bcb2308e50ac94957b1cf0aba29f2b9423012773c2a"
+        },
+        "temp/lower_cap_verify/frame-00-at-20s.png": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\a1\\a1953a752e09876c1e3dbccb313d7686dd945c5c235f0fe1ca5d0b7f99b580b2"
+        },
+        "temp/lower_cap_verify/frame-01-at-38s.png": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\0f\\0fbb588c9151394161b140757cefb43cadf2ed4fbb25c00571b807c708bf6d85"
+        },
+        "temp/lower_cap_verify/frame-02-at-75s.png": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\22\\2212f2b97f20811f4719967f63389671edf281b99b5c0fabf3330a832c0b1124"
+        },
+        "temp/lower_cap_verify/frame-03-at-325s.png": {
+          "before": null,
+          "after": "C:\\Users\\Navies\\.cache\\hyperframes\\history\\10896837-3dbe-4206-82bc-f3f2097965c4\\blobs\\db\\dbd0c0ea08a638254906206992aab487f51ed0aed2d1043cd0a06627669a7589"
+        }
+      }
     }
   },
   "checks": {
@@ -793,7 +939,7 @@
   "snapshots": {
     "latest": {
       "revision": null,
-      "id": "fdb4c23a-3cec-4772-bec6-78bd9c01ccaf-1"
+      "id": "f88fee20-557d-4738-b185-95a506a7c9d9-3"
     },
     "revisions": {
       "47d4eb19-df37-4704-b213-1a66309d8199": [
@@ -1589,20 +1735,100 @@
         "inputFingerprint": "a663a8dce00e74ee39b5a7a93c60008cfea5f3aba2cc49675e9b77f7a897b5c9",
         "inputScope": "local-project-files",
         "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "f88fee20-557d-4738-b185-95a506a7c9d9-0",
+        "image": "C:\\Users\\Navies\\code\\VideoArga\\temp\\lower_cap_verify\\frame-00-at-20s.png",
+        "time": 20,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795698851401,
+        "contentHash": "a1953a752e09876c1e3dbccb313d7686dd945c5c235f0fe1ca5d0b7f99b580b2",
+        "revision": null,
+        "inputFingerprint": "6da6f04d845792b95d905b9e76192d5bd6716b7e56ef623ba5ebbf938bb214a5",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "f88fee20-557d-4738-b185-95a506a7c9d9-1",
+        "image": "C:\\Users\\Navies\\code\\VideoArga\\temp\\lower_cap_verify\\frame-01-at-38s.png",
+        "time": 38,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795698851404,
+        "contentHash": "0fbb588c9151394161b140757cefb43cadf2ed4fbb25c00571b807c708bf6d85",
+        "revision": null,
+        "inputFingerprint": "6da6f04d845792b95d905b9e76192d5bd6716b7e56ef623ba5ebbf938bb214a5",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "f88fee20-557d-4738-b185-95a506a7c9d9-2",
+        "image": "C:\\Users\\Navies\\code\\VideoArga\\temp\\lower_cap_verify\\frame-02-at-75s.png",
+        "time": 75,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795698851405,
+        "contentHash": "2212f2b97f20811f4719967f63389671edf281b99b5c0fabf3330a832c0b1124",
+        "revision": null,
+        "inputFingerprint": "6da6f04d845792b95d905b9e76192d5bd6716b7e56ef623ba5ebbf938bb214a5",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "f88fee20-557d-4738-b185-95a506a7c9d9-3",
+        "image": "C:\\Users\\Navies\\code\\VideoArga\\temp\\lower_cap_verify\\frame-03-at-325s.png",
+        "time": 325,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795698851407,
+        "contentHash": "dbd0c0ea08a638254906206992aab487f51ed0aed2d1043cd0a06627669a7589",
+        "revision": null,
+        "inputFingerprint": "6da6f04d845792b95d905b9e76192d5bd6716b7e56ef623ba5ebbf938bb214a5",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
       }
     ]
   },
   "renders": {
     "latest": {
-      "id": "03e11f67-a4c8-4804-a9f1-28f7f4caf35c",
-      "completedAt": 1795694192742,
+      "id": "d8997d3d-f50e-4499-a547-912b71469cbb",
+      "completedAt": 1795699810930,
       "output": "C:\\Users\\Navies\\code\\VideoArga\\renders\\final\\corruption_2005_vs_today_raw.mp4",
       "status": "completed",
-      "revision": "b8d42090-8384-40f6-b2b0-5e983c59596d"
+      "revision": "07b1da95-c202-453b-a83e-6ddc9be8064e"
     },
     "retainedRevisions": [
-      "b8d42090-8384-40f6-b2b0-5e983c59596d",
-      "bbbe680b-660b-4a4c-b2d1-4c47763081c5"
+      "07b1da95-c202-453b-a83e-6ddc9be8064e",
+      "b8d42090-8384-40f6-b2b0-5e983c59596d"
     ]
   },
   "pendingArtifactCleanup": []
