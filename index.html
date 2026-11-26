@@ -1,0 +1,244 @@
+<!doctype html>
+<html
+  lang="en"
+  data-resolution="portrait"
+  data-composition-variables='[
+    {"id":"color-ground","type":"color","label":"Desk Ground","default":"#17181B"},
+    {"id":"color-paper","type":"color","label":"Archive Paper","default":"#DDD6C7"},
+    {"id":"color-ink","type":"color","label":"Ink","default":"#F4F1EA"},
+    {"id":"color-accent","type":"color","label":"Judicial Crimson","default":"#B91C1C"},
+    {"id":"font-display","type":"string","label":"Display Font","default":"Oswald"}
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>2005 vs. Today: How Indonesian Corruption Mutated</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --color-ground: #17181B;
+        --color-paper: #DDD6C7;
+        --color-ink: #F4F1EA;
+        --color-accent: #B91C1C;
+        --font-display: "Oswald", sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--color-ground);
+      }
+      #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--color-ground);
+      }
+      .scene-host {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1080px;
+        height: 1920px;
+        z-index: 1;
+      }
+      .captions-host {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1080px;
+        height: 1920px;
+        z-index: 10;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="345.168"
+      data-width="1080"
+      data-height="1920"
+      data-fps="30"
+    >
+      <!-- Lane 1: Five Act Sub-Compositions (back-to-back, zero overlap) -->
+      <div
+        id="act0-hook"
+        class="clip scene-host"
+        data-composition-id="act0-hook"
+        data-composition-src="compositions/act0-hook.html"
+        data-track-kind="graphics"
+        data-track-index="1"
+        data-start="0"
+        data-duration="34.667"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+
+      <div
+        id="act1-2005"
+        class="clip scene-host"
+        data-composition-id="act1-2005"
+        data-composition-src="compositions/act1-2005.html"
+        data-track-kind="graphics"
+        data-track-index="1"
+        data-start="34.667"
+        data-duration="68.133"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+
+      <div
+        id="act2-numbers"
+        class="clip scene-host"
+        data-composition-id="act2-numbers"
+        data-composition-src="compositions/act2-numbers.html"
+        data-track-kind="graphics"
+        data-track-index="1"
+        data-start="102.8"
+        data-duration="114.048"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+
+      <div
+        id="act3-today"
+        class="clip scene-host"
+        data-composition-id="act3-today"
+        data-composition-src="compositions/act3-today.html"
+        data-track-kind="graphics"
+        data-track-index="1"
+        data-start="216.848"
+        data-duration="83.819"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+
+      <div
+        id="act4-outro"
+        class="clip scene-host"
+        data-composition-id="act4-outro"
+        data-composition-src="compositions/act4-outro.html"
+        data-track-kind="graphics"
+        data-track-index="1"
+        data-start="300.667"
+        data-duration="44.501"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+
+      <!-- Lane 2: Synced Burned-in Captions Track -->
+      <div
+        id="captions"
+        class="clip captions-host"
+        data-composition-id="captions"
+        data-composition-src="compositions/captions.html"
+        data-track-kind="captions"
+        data-track-index="2"
+        data-start="0"
+        data-duration="345.168"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+
+      <!-- Lane 3: Broadcast-Normalized Host Voice Tracks (-16 LUFS) -->
+      <audio
+        id="voice-act0"
+        class="clip"
+        src="assets/audio/voice/act0_hook.wav"
+        data-start="0"
+        data-duration="34.667"
+        data-volume="1"
+        data-track-index="3"
+      ></audio>
+      <audio
+        id="voice-act1"
+        class="clip"
+        src="assets/audio/voice/act1_2005.wav"
+        data-start="34.667"
+        data-duration="68.133"
+        data-volume="1"
+        data-track-index="3"
+      ></audio>
+      <audio
+        id="voice-act2"
+        class="clip"
+        src="assets/audio/voice/act2_numbers.wav"
+        data-start="102.8"
+        data-duration="114.048"
+        data-volume="1"
+        data-track-index="3"
+      ></audio>
+      <audio
+        id="voice-act3"
+        class="clip"
+        src="assets/audio/voice/act3_today.wav"
+        data-start="216.848"
+        data-duration="83.819"
+        data-volume="1"
+        data-track-index="3"
+      ></audio>
+      <audio
+        id="voice-act4"
+        class="clip"
+        src="assets/audio/voice/act4_outro.wav"
+        data-start="300.667"
+        data-duration="44.501"
+        data-volume="1"
+        data-track-index="3"
+      ></audio>
+
+      <!-- Lane 4: Real Bundled SFX Hits (peak aligned 1 frame after visual hit, zero overlaps) -->
+      <!-- Hook: Odometer lock thud at 3.0s (peak at +0.073s) -->
+      <audio id="sfx-hook-lock" class="clip" src="assets/audio/sfx/impact-bass-1.wav" data-start="2.96" data-duration="1.8" data-volume="0.42" data-fade-out="0.4" data-track-index="4"></audio>
+      <!-- Hook: 40 Cases stamp at 5.6s -->
+      <audio id="sfx-hook-stamp" class="clip" src="assets/audio/sfx/pop.wav" data-start="5.58" data-duration="0.5" data-volume="0.45" data-track-index="4"></audio>
+      <!-- Hook: Second counter Rp 193T reveal at 11.8s -->
+      <audio id="sfx-hook-whoosh" class="clip" src="assets/audio/sfx/whoosh-short.wav" data-start="11.67" data-duration="0.57" data-volume="0.38" data-track-index="4"></audio>
+      <!-- Hook: 20x badge slam at 14.35s -->
+      <audio id="sfx-hook-20x" class="clip" src="assets/audio/sfx/impact-bass-1.wav" data-start="14.31" data-duration="1.6" data-volume="0.4" data-fade-out="0.35" data-track-index="4"></audio>
+
+      <!-- Act 1: Dossier slide at 34.667 + 9.28 = 43.95s -->
+      <audio id="sfx-a1-dossier" class="clip" src="assets/audio/sfx/whoosh.wav" data-start="43.82" data-duration="0.57" data-volume="0.36" data-track-index="4"></audio>
+      <!-- Act 1: FIRST TIPIKOR VERDICT stamp at 34.667 + 15.0 = 49.67s -->
+      <audio id="sfx-a1-stamp" class="clip" src="assets/audio/sfx/impact-bass-1.wav" data-start="49.63" data-duration="1.7" data-volume="0.42" data-fade-out="0.35" data-track-index="4"></audio>
+      <!-- Act 1: 5-City cascade entry at 34.667 + 53.2 = 87.87s -->
+      <audio id="sfx-a1-cities" class="clip" src="assets/audio/sfx/whoosh-short.wav" data-start="87.74" data-duration="0.57" data-volume="0.35" data-track-index="4"></audio>
+
+      <!-- Act 2: Chart 1 enter at 102.8 + 12.4 = 115.2s -->
+      <audio id="sfx-a2-chart" class="clip" src="assets/audio/sfx/whoosh.wav" data-start="115.07" data-duration="0.57" data-volume="0.35" data-track-index="4"></audio>
+      <!-- Act 2: Banking 80.7% surge at 102.8 + 35.9 = 138.7s -->
+      <audio id="sfx-a2-bank" class="clip" src="assets/audio/sfx/impact-bass-1.wav" data-start="138.66" data-duration="1.8" data-volume="0.42" data-fade-out="0.4" data-track-index="4"></audio>
+      <!-- Act 2: KPU dossier enter at 102.8 + 86.25 = 189.05s -->
+      <audio id="sfx-a2-kpu" class="clip" src="assets/audio/sfx/whoosh-short.wav" data-start="188.92" data-duration="0.57" data-volume="0.35" data-track-index="4"></audio>
+
+      <!-- Act 3: Climax Riser -> Impact on Pertamina Rp 193.7T at 216.848 + 34.7 = 251.55s (once in the film!) -->
+      <audio id="sfx-a3-riser" class="clip" src="assets/audio/sfx/riser.wav" data-start="248.8" data-duration="2.7" data-volume="0.32" data-fade-in="0.3" data-track-index="4"></audio>
+      <audio id="sfx-a3-climax" class="clip" src="assets/audio/sfx/impact-bass-2.wav" data-start="251.54" data-duration="2.2" data-volume="0.44" data-fade-out="0.45" data-track-index="4"></audio>
+      <!-- Act 3: 2005 vs 2026 Playbook reveal at 216.848 + 45.1 = 261.95s -->
+      <audio id="sfx-a3-play" class="clip" src="assets/audio/sfx/whoosh.wav" data-start="261.82" data-duration="0.57" data-volume="0.36" data-track-index="4"></audio>
+      <!-- Act 3: Judicial capture alert at 216.848 + 67.35 = 284.2s -->
+      <audio id="sfx-a3-courts" class="clip" src="assets/audio/sfx/pop.wav" data-start="284.18" data-duration="0.5" data-volume="0.4" data-track-index="4"></audio>
+
+      <!-- Act 4: Outro timeline transition at 300.667s -->
+      <audio id="sfx-a4-open" class="clip" src="assets/audio/sfx/whoosh-short.wav" data-start="300.55" data-duration="0.57" data-volume="0.35" data-track-index="4"></audio>
+      <!-- Act 4: Final question CTA at 300.667 + 30.15 = 330.82s -->
+      <audio id="sfx-a4-cta" class="clip" src="assets/audio/sfx/pop.wav" data-start="330.8" data-duration="0.5" data-volume="0.38" data-track-index="4"></audio>
+    </div>
+
+    <script>
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

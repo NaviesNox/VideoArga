@@ -1,0 +1,627 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #17181B;
+      font-family: "Inter", sans-serif;
+    }
+
+    .a2-host-stage {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .a2-host-cam {
+      position: absolute;
+      inset: 0;
+      transform-origin: 50% 34%;
+    }
+
+    .a2-host-video {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+      object-fit: cover;
+    }
+
+    .a2-host-scrim {
+      position: absolute;
+      left: 0;
+      top: 860px;
+      width: 1080px;
+      height: 1060px;
+      background: linear-gradient(180deg, rgba(17, 18, 20, 0) 0%, rgba(17, 18, 20, 0.72) 22%, rgba(17, 18, 20, 0.9) 100%);
+      pointer-events: none;
+    }
+
+    .a2-chest {
+      position: absolute;
+      left: 150px;
+      top: 998px;
+      width: 740px;
+      background: #DDD6C7;
+      border: 3px solid #111214;
+      border-left: 12px solid #B91C1C;
+      padding: 12px 20px;
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.55);
+      z-index: 6;
+    }
+
+    .a2-chest-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #991B1B;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+
+    .a2-chest-title {
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+      line-height: 1.08;
+      margin-top: 2px;
+    }
+
+    /* Full Desk Plate */
+    .a2-desk {
+      position: absolute;
+      inset: 0;
+      background: #17181B;
+      z-index: 5;
+    }
+
+    .a2-desk-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(244, 241, 234, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(244, 241, 234, 0.05) 1px, transparent 1px);
+      background-size: 64px 64px;
+      pointer-events: none;
+    }
+
+    /* Charts 1 & 2 Plate (compact height so source sits well above captions at 1126) */
+    .a2-chart-wrap {
+      position: absolute;
+      left: 150px;
+      top: 290px;
+      width: 760px;
+    }
+
+    .a2-chart-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #F5B841;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .a2-chart-title {
+      font-family: "Oswald", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      color: #F4F1EA;
+      text-transform: uppercase;
+      line-height: 1.05;
+      margin-bottom: 14px;
+    }
+
+    .a2-chart-card {
+      background: #1E2025;
+      border: 3px solid #3A3D47;
+      padding: 18px 20px;
+      box-shadow: 0 20px 44px rgba(0, 0, 0, 0.6);
+    }
+
+    .a2-bar-group {
+      margin-bottom: 16px;
+    }
+
+    .a2-bar-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .a2-bar-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 6px;
+    }
+
+    .a2-bar-name {
+      font-family: "Oswald", sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: #F4F1EA;
+      text-transform: uppercase;
+    }
+
+    .a2-bar-val {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 29px;
+      font-weight: 700;
+      color: #F5B841;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .a2-bar-track {
+      width: 100%;
+      height: 36px;
+      background: #121317;
+      border: 2px solid #2D3038;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .a2-bar-fill {
+      height: 100%;
+      width: 100%;
+      transform-origin: 0% 50%;
+    }
+
+    .a2-fill-ochre {
+      background: #E09F24;
+    }
+
+    .a2-fill-crimson {
+      background: #C81E1E;
+    }
+
+    .a2-fill-slate {
+      background: #5B616E;
+    }
+
+    .a2-chart-callout {
+      margin-top: 14px;
+      background: #B91C1C;
+      color: #FFFFFF;
+      padding: 12px 20px;
+      font-family: "Oswald", sans-serif;
+      font-size: 34px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    .a2-chart-source {
+      margin-top: 10px;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 600;
+      color: #C7C3BA;
+    }
+
+    /* Banking 4-Case Dossier Plate */
+    .a2-bank-wrap {
+      position: absolute;
+      left: 150px;
+      top: 292px;
+      width: 760px;
+    }
+
+    .a2-bank-head {
+      font-family: "Oswald", sans-serif;
+      font-size: 52px;
+      font-weight: 700;
+      color: #F4F1EA;
+      text-transform: uppercase;
+      line-height: 1.05;
+      margin-bottom: 8px;
+    }
+
+    .a2-bank-sub {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #FCA5A5;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .a2-bank-row {
+      background: #E5DEC9;
+      border: 3px solid #111214;
+      border-left: 12px solid #B91C1C;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 12px 26px rgba(0, 0, 0, 0.55);
+    }
+
+    .a2-bank-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .a2-bank-name {
+      font-family: "Oswald", sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+    }
+
+    .a2-bank-amt {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 36px;
+      font-weight: 700;
+      color: #991B1B;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .a2-bank-desc {
+      font-size: 28px;
+      font-weight: 600;
+      color: #26272B;
+      margin-top: 4px;
+    }
+
+    /* Split Drawer for S.A. Hajj Endowment (74.6s - 86.2s) */
+    .a2-split-drawer {
+      position: absolute;
+      left: 0;
+      top: 760px;
+      width: 1080px;
+      height: 1160px;
+      background: #17181B;
+      border-top: 6px solid #B91C1C;
+      z-index: 5;
+    }
+
+    .a2-sa-card {
+      position: absolute;
+      left: 150px;
+      top: 26px;
+      width: 740px;
+      background: #E5DEC9;
+      border: 3px solid #111214;
+      border-left: 12px solid #B91C1C;
+      padding: 20px 24px;
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.55);
+    }
+
+    .a2-sa-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #991B1B;
+    }
+
+    .a2-sa-title {
+      font-family: "Oswald", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+      line-height: 1.06;
+      margin: 4px 0 8px 0;
+    }
+
+    .a2-sa-desc {
+      font-size: 29px;
+      font-weight: 600;
+      color: #1F2024;
+    }
+
+    /* KPU 4-Case Dossier (86.2s - 114.0s) */
+    .a2-kpu-row {
+      background: #1E2025;
+      border: 3px solid #454954;
+      border-left: 12px solid #E09F24;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+    }
+
+    .a2-kpu-row-alert {
+      border-color: #C81E1E;
+      border-left-color: #C81E1E;
+      background: #281416;
+    }
+
+    .a2-kpu-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .a2-kpu-id {
+      font-family: "Oswald", sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      color: #F4F1EA;
+    }
+
+    .a2-kpu-case {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 29px;
+      font-weight: 700;
+      color: #F5B841;
+    }
+
+    .a2-kpu-row-alert .a2-kpu-case {
+      color: #FCA5A5;
+    }
+  </style>
+
+  <div id="root" data-composition-id="act2-numbers" data-width="1080" data-height="1920">
+    <!-- Host layer -->
+    <div class="a2-host-stage" data-layout-allow-overflow>
+      <div id="a2-host-cam" class="a2-host-cam">
+        <video
+          id="a2-video"
+          class="clip a2-host-video"
+          data-start="0"
+          data-duration="114.048"
+          data-track-index="0"
+          src="assets/video/act2_numbers.mp4"
+          muted
+          playsinline
+        ></video>
+      </div>
+      <div class="a2-host-scrim" data-layout-ignore></div>
+    </div>
+
+    <!-- Opening Chest Tag (0.8s - 12.2s) -->
+    <div id="a2-chest-open" class="a2-chest">
+      <div class="a2-chest-kicker">ACT 2 · 40 VERDICTS (2005)</div>
+      <div class="a2-chest-title">FREQUENCY VS BIG MONEY</div>
+    </div>
+
+    <!-- Full Desk: Animated Vertical Charts 1 & 2 (12.5s - 47.4s) -->
+    <div id="a2-desk-charts" class="a2-desk">
+      <div class="a2-desk-grid" data-layout-ignore></div>
+      <div class="a2-chart-wrap">
+        <div id="a2-chart-kicker" class="a2-chart-kicker">CHART 1 · BY CASE COUNT</div>
+        <div id="a2-chart-title" class="a2-chart-title">WHERE CORRUPTION HAPPENED</div>
+
+        <div class="a2-chart-card">
+          <div class="a2-bar-group">
+            <div class="a2-bar-meta">
+              <span class="a2-bar-name">APBN / APBD</span>
+              <span id="a2-val-apbd" class="a2-bar-val">15 CASES · 37.5%</span>
+            </div>
+            <div class="a2-bar-track">
+              <div id="a2-bar-apbd" class="a2-bar-fill a2-fill-ochre"></div>
+            </div>
+          </div>
+
+          <div class="a2-bar-group">
+            <div class="a2-bar-meta">
+              <span class="a2-bar-name">BANKING & FINANCE</span>
+              <span id="a2-val-bank" class="a2-bar-val">7 CASES · 17.5%</span>
+            </div>
+            <div class="a2-bar-track">
+              <div id="a2-bar-bank" class="a2-bar-fill a2-fill-crimson"></div>
+            </div>
+          </div>
+
+          <div class="a2-bar-group">
+            <div class="a2-bar-meta">
+              <span class="a2-bar-name">HAJJ & OTHER</span>
+              <span id="a2-val-other" class="a2-bar-val">14 CASES · 35.0%</span>
+            </div>
+            <div class="a2-bar-track">
+              <div id="a2-bar-other" class="a2-bar-fill a2-fill-slate"></div>
+            </div>
+          </div>
+
+          <div class="a2-bar-group">
+            <div class="a2-bar-meta">
+              <span class="a2-bar-name">2004 ELECTION (KPU)</span>
+              <span id="a2-val-kpu" class="a2-bar-val">4 CASES · 10.0%</span>
+            </div>
+            <div class="a2-bar-track">
+              <div id="a2-bar-kpu" class="a2-bar-fill a2-fill-slate"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="a2-chart-callout" class="a2-chart-callout">7 BANKING CASES = Rp 7.13 TRILLION</div>
+        <div class="a2-chart-source">Source: 2005 Tipikor & 40 Major Cases</div>
+      </div>
+    </div>
+
+    <!-- Full Desk: Banking 4-Case Ledger (47.5s - 74.5s) -->
+    <div id="a2-desk-banks" class="a2-desk">
+      <div class="a2-desk-grid" data-layout-ignore></div>
+      <div class="a2-bank-wrap">
+        <div class="a2-bank-head">BANKING & FINANCE LOOTING</div>
+        <div class="a2-bank-sub">80.7% OF ALL 2005 LOSSES · Rp 7.13 TRILLION</div>
+
+        <div id="a2-b1" class="a2-bank-row">
+          <div class="a2-bank-top">
+            <span class="a2-bank-name">P.S. · BLBI</span>
+            <span class="a2-bank-amt">Rp 2.02T</span>
+          </div>
+          <div class="a2-bank-desc">Debit balance facilities misuse</div>
+        </div>
+
+        <div id="a2-b2" class="a2-bank-row">
+          <div class="a2-bank-top">
+            <span class="a2-bank-name">BANK MANDIRI</span>
+            <span class="a2-bank-amt">Rp 1.89T</span>
+          </div>
+          <div class="a2-bank-desc">Bad loans to PT Kiani Kertas</div>
+        </div>
+
+        <div id="a2-b3" class="a2-bank-row">
+          <div class="a2-bank-top">
+            <span class="a2-bank-name">BANK BNI KEBAYORAN BARU</span>
+            <span class="a2-bank-amt">Rp 1.70T</span>
+          </div>
+          <div class="a2-bank-desc">Fictitious letters of credit (L/C)</div>
+        </div>
+
+        <div id="a2-b4" class="a2-bank-row">
+          <div class="a2-bank-top">
+            <span class="a2-bank-name">BANK DAGANG BALI</span>
+            <span class="a2-bank-amt">Rp 1.30T</span>
+          </div>
+          <div class="a2-bank-desc">Vanished banking funds</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Split Drawer: S.A. Religious Affairs (74.6s - 86.1s) -->
+    <div id="a2-split-sa" class="a2-split-drawer">
+      <div id="a2-sa-card" class="a2-sa-card">
+        <div class="a2-sa-kicker">MINISTRY OF RELIGIOUS AFFAIRS · S.A.</div>
+        <div class="a2-sa-title">Rp 719 BILLION</div>
+        <div class="a2-sa-desc">Hajj & Ummah Endowment Funds</div>
+      </div>
+    </div>
+
+    <!-- Full Desk: 2004 Election KPU Cases (86.2s - 114.0s) -->
+    <div id="a2-desk-kpu" class="a2-desk">
+      <div class="a2-desk-grid" data-layout-ignore></div>
+      <div class="a2-bank-wrap">
+        <div class="a2-bank-head">2004 ELECTION · KPU CASES</div>
+        <div class="a2-bank-sub">4 SEPARATE CASES · TOTAL Rp 15.53 BILLION</div>
+
+        <div id="a2-k1" class="a2-kpu-row">
+          <div class="a2-kpu-top">
+            <span class="a2-kpu-id">R.K.</span>
+            <span class="a2-kpu-case">BALLOT PAPER</span>
+          </div>
+        </div>
+
+        <div id="a2-k2" class="a2-kpu-row">
+          <div class="a2-kpu-top">
+            <span class="a2-kpu-id">N.S.</span>
+            <span class="a2-kpu-case">POLL WORKER INSURANCE</span>
+          </div>
+        </div>
+
+        <div id="a2-k3" class="a2-kpu-row">
+          <div class="a2-kpu-top">
+            <span class="a2-kpu-id">D.D.</span>
+            <span class="a2-kpu-case">ELECTION INK</span>
+          </div>
+        </div>
+
+        <div id="a2-k4" class="a2-kpu-row a2-kpu-row-alert">
+          <div class="a2-kpu-top">
+            <span class="a2-kpu-id">M.W.K.</span>
+            <span class="a2-kpu-case">Rp 300M AUDITOR BRIBE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    const kickerEl = document.getElementById("a2-chart-kicker");
+    const titleEl = document.getElementById("a2-chart-title");
+    const valApbd = document.getElementById("a2-val-apbd");
+    const valBank = document.getElementById("a2-val-bank");
+    const valOther = document.getElementById("a2-val-other");
+    const valKpu = document.getElementById("a2-val-kpu");
+
+    // Initial states (immediate gsap.set outside timeline)
+    gsap.set("#a2-host-cam", { scale: 1, y: 0 });
+    gsap.set("#a2-chest-open", { opacity: 0, x: -36 });
+    gsap.set("#a2-desk-charts", { opacity: 0, y: 50, visibility: "hidden" });
+    gsap.set(["#a2-bar-apbd", "#a2-bar-bank", "#a2-bar-other", "#a2-bar-kpu"], { scaleX: 0 });
+    gsap.set("#a2-chart-callout", { opacity: 0, y: 18 });
+
+    gsap.set("#a2-desk-banks", { opacity: 0, y: 50, visibility: "hidden" });
+    gsap.set(["#a2-b1", "#a2-b2", "#a2-b3", "#a2-b4"], { opacity: 0, x: -44 });
+
+    gsap.set("#a2-split-sa", { opacity: 0, y: 240, visibility: "hidden" });
+    gsap.set("#a2-sa-card", { opacity: 0, x: 40 });
+
+    gsap.set("#a2-desk-kpu", { opacity: 0, y: 50, visibility: "hidden" });
+    gsap.set(["#a2-k1", "#a2-k2", "#a2-k3", "#a2-k4"], { opacity: 0, x: -44 });
+
+    // 0.8s -> 12.1s: Opening chapter banner on host
+    tl.fromTo("#a2-chest-open", { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.4, ease: "expo.out" }, 0.8);
+    tl.fromTo("#a2-chest-open", { opacity: 1, x: 0 }, { opacity: 0, x: 24, duration: 0.28, ease: "power3.in", immediateRender: false }, 12.0);
+
+    // 12.4s -> 47.4s: Chart 1 -> Chart 2 Inversion
+    tl.set("#a2-desk-charts", { visibility: "visible" }, 12.35);
+    tl.fromTo("#a2-desk-charts", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.45, ease: "expo.out" }, 12.4);
+
+    // Deterministic label controller driven by timeline progress (handles seek-back cleanly!)
+    const modeProxy = { stage: 0 };
+    const applyChartLabels = (s) => {
+      if (s < 0.5) {
+        kickerEl.textContent = "CHART 1 · BY CASE COUNT (40 CASES)";
+        titleEl.textContent = "WHERE CORRUPTION HAPPENED";
+        valApbd.textContent = "15 CASES · 37.5%";
+        valBank.textContent = "7 CASES · 17.5%";
+        valOther.textContent = "14 CASES · 35.0%";
+        valKpu.textContent = "4 CASES · 10.0%";
+      } else {
+        kickerEl.textContent = "CHART 2 · BY STATE LOSSES (Rp 8.84T)";
+        titleEl.textContent = "WHERE THE BIG MONEY WENT";
+        valApbd.textContent = "Rp 206.37B · 2.3%";
+        valBank.textContent = "Rp 7.13T · 80.7%";
+        valOther.textContent = "Rp 1.49T · 16.8%";
+        valKpu.textContent = "Rp 15.53B · 0.2%";
+      }
+    };
+    tl.fromTo(modeProxy, { stage: 0 }, { stage: 0, duration: 0.01, onUpdate: () => applyChartLabels(0) }, 12.4);
+
+    // 14.0s -> 22.0s: Draw Chart 1 bars (scale relative to 45% max so 37.5% looks bold)
+    tl.fromTo("#a2-bar-apbd", { scaleX: 0 }, { scaleX: 0.85, duration: 0.9, ease: "power4.out" }, 16.2);
+    tl.fromTo("#a2-bar-other", { scaleX: 0 }, { scaleX: 0.78, duration: 0.75, ease: "power4.out" }, 17.0);
+    tl.fromTo("#a2-bar-bank", { scaleX: 0 }, { scaleX: 0.39, duration: 0.7, ease: "power4.out" }, 17.5);
+    tl.fromTo("#a2-bar-kpu", { scaleX: 0 }, { scaleX: 0.22, duration: 0.65, ease: "power4.out" }, 18.0);
+
+    // 23.6s ("Yet those 15 regional cases added up to Rp 206.37B, just 2.3%"): Flip to Chart 2!
+    tl.fromTo(modeProxy, { stage: 0 }, { stage: 1, duration: 0.05, immediateRender: false, onUpdate: () => applyChartLabels(modeProxy.stage) }, 23.6);
+    tl.fromTo("#a2-bar-apbd", { scaleX: 0.85 }, { scaleX: 0.05, duration: 1.0, ease: "power3.inOut", immediateRender: false }, 24.0);
+    tl.fromTo("#a2-bar-other", { scaleX: 0.78 }, { scaleX: 0.21, duration: 0.9, ease: "power3.inOut", immediateRender: false }, 24.4);
+    tl.fromTo("#a2-bar-kpu", { scaleX: 0.22 }, { scaleX: 0.02, duration: 0.8, ease: "power3.inOut", immediateRender: false }, 24.6);
+
+    // 35.8s ("The remaining 80.7% came from banking and finance..."): Banking bar surges to 98% width!
+    tl.fromTo("#a2-bar-bank", { scaleX: 0.39 }, { scaleX: 0.98, duration: 1.1, ease: "expo.out", immediateRender: false }, 35.9);
+    tl.fromTo("#a2-chart-callout", { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.4, ease: "back.out(1.2)" }, 38.5);
+
+    // 47.4s: Exit Charts -> Enter Banking 4-Case Ledger
+    tl.fromTo("#a2-desk-charts", { opacity: 1, y: 0 }, { opacity: 0, y: -50, duration: 0.3, ease: "power3.in", immediateRender: false }, 47.25);
+    tl.set("#a2-desk-charts", { visibility: "hidden" }, 47.58);
+
+    tl.set("#a2-desk-banks", { visibility: "visible" }, 47.45);
+    tl.fromTo("#a2-desk-banks", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.38, ease: "expo.out" }, 47.5);
+    tl.fromTo("#a2-b1", { opacity: 0, x: -44 }, { opacity: 1, x: 0, duration: 0.38, ease: "power4.out" }, 47.7);
+    tl.fromTo("#a2-b2", { opacity: 0, x: -44 }, { opacity: 1, x: 0, duration: 0.38, ease: "power4.out" }, 55.9);
+    tl.fromTo("#a2-b3", { opacity: 0, x: -44 }, { opacity: 1, x: 0, duration: 0.38, ease: "power4.out" }, 63.2);
+    tl.fromTo("#a2-b4", { opacity: 0, x: -44 }, { opacity: 1, x: 0, duration: 0.38, ease: "power4.out" }, 69.8);
+
+    // 74.6s ("Outside banking..."): Exit Bank Ledger -> Split-View Host (edge-to-edge scale 1!) + S.A. Hajj Endowment Card
+    tl.set("#a2-host-cam", { scale: 1, y: -230 }, 74.4);
+    tl.fromTo("#a2-desk-banks", { opacity: 1, y: 0 }, { opacity: 0, y: -50, duration: 0.3, ease: "power3.in", immediateRender: false }, 74.45);
+    tl.set("#a2-desk-banks", { visibility: "hidden" }, 74.78);
+
+    tl.set("#a2-split-sa", { visibility: "visible" }, 74.65);
+    tl.fromTo("#a2-split-sa", { opacity: 0, y: 200 }, { opacity: 1, y: 0, duration: 0.42, ease: "expo.out" }, 74.7);
+    tl.fromTo("#a2-sa-card", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.4, ease: "power4.out" }, 75.2);
+
+    // 86.2s ("Even the 2004 election..."): Exit Split -> Enter KPU 4-Case Dossier
+    tl.fromTo("#a2-split-sa", { opacity: 1, y: 0 }, { opacity: 0, y: 180, duration: 0.3, ease: "power3.in", immediateRender: false }, 86.0);
+    tl.set("#a2-split-sa", { visibility: "hidden" }, 86.32);
+
+    tl.set("#a2-desk-kpu", { visibility: "visible" }, 86.2);
+    tl.fromTo("#a2-desk-kpu", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "expo.out" }, 86.25);
+    tl.fromTo("#a2-k1", { opacity: 0, x: -44 }, { opacity: 1, x: 0, duration: 0.34, ease: "power4.out" }, 96.0);
+    tl.fromTo("#a2-k2", { opacity: 0, x: -44 }, { opacity: 1, x: 0, duration: 0.34, ease: "power4.out" }, 99.5);
+    tl.fromTo("#a2-k3", { opacity: 0, x: -44 }, { opacity: 1, x: 0, duration: 0.34, ease: "power4.out" }, 102.8);
+    tl.fromTo("#a2-k4", { opacity: 0, x: -44 }, { opacity: 1, x: 0, duration: 0.36, ease: "back.out(1.2)" }, 105.7);
+
+    window.__timelines["act2-numbers"] = tl;
+  </script>
+</template>

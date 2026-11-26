@@ -1,0 +1,317 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #17181B;
+      font-family: "Inter", sans-serif;
+    }
+
+    .a4-host-stage {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .a4-host-cam {
+      position: absolute;
+      inset: 0;
+      transform-origin: 50% 34%;
+    }
+
+    .a4-host-video {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+      object-fit: cover;
+    }
+
+    .a4-host-scrim {
+      position: absolute;
+      left: 0;
+      top: 860px;
+      width: 1080px;
+      height: 1060px;
+      background: linear-gradient(180deg, rgba(17, 18, 20, 0) 0%, rgba(17, 18, 20, 0.72) 22%, rgba(17, 18, 20, 0.9) 100%);
+      pointer-events: none;
+    }
+
+    /* Full Desk: 2005 -> 2026 Runaway Timeline (0.0s - 21.5s) */
+    .a4-desk {
+      position: absolute;
+      inset: 0;
+      background: #17181B;
+      z-index: 5;
+    }
+
+    .a4-desk-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(244, 241, 234, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(244, 241, 234, 0.05) 1px, transparent 1px);
+      background-size: 64px 64px;
+      pointer-events: none;
+    }
+
+    .a4-tl-wrap {
+      position: absolute;
+      left: 150px;
+      top: 292px;
+      width: 760px;
+    }
+
+    .a4-tl-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #F5B841;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .a4-tl-head {
+      font-family: "Oswald", sans-serif;
+      font-size: 54px;
+      font-weight: 700;
+      color: #F4F1EA;
+      text-transform: uppercase;
+      line-height: 1.05;
+      margin-bottom: 18px;
+    }
+
+    .a4-svg-box {
+      background: #1E2025;
+      border: 3px solid #3A3D47;
+      padding: 20px;
+      position: relative;
+      box-shadow: 0 22px 46px rgba(0, 0, 0, 0.65);
+    }
+
+    .a4-milestones {
+      margin-top: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .a4-ms-tag {
+      background: #231416;
+      border: 3px solid #C81E1E;
+      border-left: 10px solid #E02424;
+      padding: 12px 18px;
+      font-family: "Oswald", sans-serif;
+      font-size: 34px;
+      font-weight: 700;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .a4-ms-yr {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      color: #FCA5A5;
+    }
+
+    /* Host Chest Banner (21.6s - 30.1s, below chin & clear of captions) */
+    .a4-chest {
+      position: absolute;
+      left: 150px;
+      top: 998px;
+      width: 740px;
+      background: #DDD6C7;
+      border: 3px solid #111214;
+      border-left: 12px solid #B91C1C;
+      padding: 12px 20px;
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.55);
+      z-index: 6;
+    }
+
+    .a4-chest-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #991B1B;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+
+    .a4-chest-title {
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+      line-height: 1.08;
+      margin-top: 2px;
+    }
+
+    /* Split Drawer: Closing Comment Prompt (30.2s - 44.5s) */
+    .a4-split-cta {
+      position: absolute;
+      left: 0;
+      top: 760px;
+      width: 1080px;
+      height: 1160px;
+      background: #17181B;
+      border-top: 6px solid #B91C1C;
+      z-index: 5;
+    }
+
+    .a4-cta-card {
+      position: absolute;
+      left: 150px;
+      top: 26px;
+      width: 740px;
+      background: #E5DEC9;
+      border: 3px solid #111214;
+      border-left: 12px solid #B91C1C;
+      padding: 20px 24px;
+      box-shadow: 0 18px 36px rgba(0, 0, 0, 0.6);
+    }
+
+    .a4-cta-q {
+      font-family: "Oswald", sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+      line-height: 1.08;
+      margin-bottom: 10px;
+    }
+
+    .a4-cta-sub {
+      background: #B91C1C;
+      color: #FFFFFF;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      padding: 10px 16px;
+      display: inline-block;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <div id="root" data-composition-id="act4-outro" data-width="1080" data-height="1920">
+    <!-- Host layer -->
+    <div class="a4-host-stage" data-layout-allow-overflow>
+      <div id="a4-host-cam" class="a4-host-cam">
+        <video
+          id="a4-video"
+          class="clip a4-host-video"
+          data-start="0"
+          data-duration="44.501"
+          data-track-index="0"
+          src="assets/video/act4_outro.mp4"
+          muted
+          playsinline
+        ></video>
+      </div>
+      <div class="a4-host-scrim" data-layout-ignore></div>
+    </div>
+
+    <!-- Full Desk: 2005 -> 2026 Runaway Loss Curve (0.0s - 21.5s) -->
+    <div id="a4-desk-tl" class="a4-desk">
+      <div class="a4-desk-grid" data-layout-ignore></div>
+      <div class="a4-tl-wrap">
+        <div class="a4-tl-kicker">21-YEAR ESCALATION</div>
+        <div class="a4-tl-head">2005 → 2026 LOSS TRAJECTORY</div>
+
+        <div class="a4-svg-box">
+          <svg viewBox="0 0 714 360" width="714" height="360" style="display:block; overflow:visible;">
+            <!-- Horizontal gridlines -->
+            <line x1="20" y1="300" x2="694" y2="300" stroke="#454954" stroke-width="2" />
+            <line x1="20" y1="210" x2="694" y2="210" stroke="#2D3038" stroke-width="2" stroke-dasharray="6 6" />
+            <line x1="20" y1="120" x2="694" y2="120" stroke="#2D3038" stroke-width="2" stroke-dasharray="6 6" />
+            <line x1="20" y1="30" x2="694" y2="30" stroke="#2D3038" stroke-width="2" stroke-dasharray="6 6" />
+
+            <!-- 2005 dot -->
+            <circle id="a4-dot-05" cx="70" cy="284" r="10" fill="#F5B841" />
+            <text x="40" y="344" fill="#F5B841" font-family="IBM Plex Mono, monospace" font-size="28" font-weight="700">2005</text>
+            <text x="90" y="274" fill="#F5B841" font-family="IBM Plex Mono, monospace" font-size="28" font-weight="700">Rp 8.84T</text>
+
+            <!-- Exponential climb curve shooting up off top edge -->
+            <path
+              id="a4-curve"
+              d="M 70 284 C 240 280, 440 250, 560 140 C 615 88, 645 20, 662 -34"
+              fill="none"
+              stroke="#E02424"
+              stroke-width="10"
+              stroke-linecap="round"
+              stroke-dasharray="900"
+              stroke-dashoffset="900"
+              data-layout-allow-overflow
+            />
+
+            <!-- 2026 label -->
+            <text x="580" y="344" fill="#FCA5A5" font-family="IBM Plex Mono, monospace" font-size="28" font-weight="700">2026</text>
+            <text id="a4-lbl-26" x="405" y="76" fill="#FFFFFF" font-family="Oswald, sans-serif" font-size="40" font-weight="700">Rp 193.7T+</text>
+          </svg>
+        </div>
+
+        <div class="a4-milestones">
+          <div id="a4-ms-1" class="a4-ms-tag"><span>STATE ENTERPRISES</span><span class="a4-ms-yr">TRILLIONS</span></div>
+          <div id="a4-ms-2" class="a4-ms-tag"><span>ENERGY IMPORTS</span><span class="a4-ms-yr">TRILLIONS</span></div>
+          <div id="a4-ms-3" class="a4-ms-tag"><span>JUDICIAL VERDICTS</span><span class="a4-ms-yr">CAPTURED</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Host Chest Banner (21.6s - 30.0s) -->
+    <div id="a4-chest-mid" class="a4-chest">
+      <div class="a4-chest-kicker">21 YEARS LATER</div>
+      <div class="a4-chest-title">OPEN LOOPHOLES · ZERO DETERRENCE</div>
+    </div>
+
+    <!-- Split CTA Card (30.2s - 44.5s, held cleanly at end) -->
+    <div id="a4-split-cta" class="a4-split-cta" data-hold>
+      <div id="a4-cta-card" class="a4-cta-card" data-hold>
+        <div class="a4-cta-q">WHAT WENT WRONG WITH INDONESIA'S FIGHT AGAINST CORRUPTION?</div>
+        <div class="a4-cta-sub">DROP YOUR THOUGHTS IN THE COMMENTS</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    // Initial states (immediate gsap.set outside timeline)
+    gsap.set("#a4-host-cam", { scale: 1, y: 0 });
+    gsap.set("#a4-desk-tl", { opacity: 1, y: 0, visibility: "visible" });
+    gsap.set("#a4-lbl-26", { opacity: 0 });
+    gsap.set(["#a4-ms-1", "#a4-ms-2", "#a4-ms-3"], { opacity: 0, x: -40 });
+    gsap.set("#a4-chest-mid", { opacity: 0, x: -36 });
+    gsap.set("#a4-split-cta", { opacity: 0, y: 220, visibility: "hidden" });
+    gsap.set("#a4-cta-card", { opacity: 0, x: 40 });
+
+    // 1.0s -> 14.0s: Timeline curve draws upward and accelerates off top of chart
+    tl.fromTo("#a4-curve", { strokeDashoffset: 900 }, { strokeDashoffset: 0, duration: 12.5, ease: "power2.in" }, 1.2);
+    tl.fromTo("#a4-lbl-26", { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.4, ease: "power4.out" }, 12.8);
+
+    // 15.0s -> 20.0s: 3 mutation milestone tags land in exact sync with voice
+    tl.fromTo("#a4-ms-1", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.34, ease: "power4.out" }, 15.2);
+    tl.fromTo("#a4-ms-2", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.34, ease: "power4.out" }, 17.0);
+    tl.fromTo("#a4-ms-3", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.34, ease: "power4.out" }, 18.5);
+
+    // 21.5s ("The loopholes in public oversight stayed open..."): Return to Host full-frame
+    tl.fromTo("#a4-desk-tl", { opacity: 1, y: 0 }, { opacity: 0, y: -50, duration: 0.32, ease: "power3.in", immediateRender: false }, 21.45);
+    tl.set("#a4-desk-tl", { visibility: "hidden" }, 21.8);
+
+    tl.fromTo("#a4-chest-mid", { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.38, ease: "expo.out" }, 22.0);
+    tl.fromTo("#a4-chest-mid", { opacity: 1, x: 0 }, { opacity: 0, x: 24, duration: 0.28, ease: "power3.in", immediateRender: false }, 29.8);
+
+    // 30.1s ("Between the brazen budget skimming..."): Split-View Host (edge-to-edge scale 1!) + Final Comment Prompt Card
+    tl.fromTo("#a4-host-cam", { scale: 1, y: 0 }, { scale: 1, y: -230, duration: 0.5, ease: "power2.inOut" }, 30.0);
+    tl.set("#a4-split-cta", { visibility: "visible" }, 30.1);
+    tl.fromTo("#a4-split-cta", { opacity: 0, y: 200 }, { opacity: 1, y: 0, duration: 0.42, ease: "expo.out" }, 30.15);
+    tl.fromTo("#a4-cta-card", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.42, ease: "power4.out" }, 30.5);
+
+    window.__timelines["act4-outro"] = tl;
+  </script>
+</template>

@@ -1,0 +1,4305 @@
+{
+  "total_duration": 345.168,
+  "groups": [
+    {
+      "start": 0.56,
+      "end": 1.8,
+      "words": [
+        {
+          "text": "In",
+          "start": 0.56,
+          "end": 0.88
+        },
+        {
+          "text": "2005,",
+          "start": 0.88,
+          "end": 1.84
+        }
+      ]
+    },
+    {
+      "start": 1.84,
+      "end": 4.6,
+      "words": [
+        {
+          "text": "Indonesia",
+          "start": 1.84,
+          "end": 2.4
+        },
+        {
+          "text": "lost",
+          "start": 2.56,
+          "end": 2.96
+        },
+        {
+          "text": "8.84",
+          "start": 2.96,
+          "end": 4.16
+        },
+        {
+          "text": "trillion",
+          "start": 4.16,
+          "end": 4.64
+        }
+      ]
+    },
+    {
+      "start": 4.64,
+      "end": 7.0,
+      "words": [
+        {
+          "text": "rupiah",
+          "start": 4.64,
+          "end": 5.28
+        },
+        {
+          "text": "across",
+          "start": 5.52,
+          "end": 6.08
+        },
+        {
+          "text": "40",
+          "start": 6.08,
+          "end": 6.64
+        },
+        {
+          "text": "major",
+          "start": 6.64,
+          "end": 7.04
+        }
+      ]
+    },
+    {
+      "start": 7.04,
+      "end": 8.6,
+      "words": [
+        {
+          "text": "corruption",
+          "start": 7.04,
+          "end": 7.76
+        },
+        {
+          "text": "cases.",
+          "start": 7.76,
+          "end": 8.64
+        }
+      ]
+    },
+    {
+      "start": 8.64,
+      "end": 10.04,
+      "words": [
+        {
+          "text": "A",
+          "start": 8.64,
+          "end": 8.88
+        },
+        {
+          "text": "figure",
+          "start": 8.88,
+          "end": 9.28
+        },
+        {
+          "text": "that",
+          "start": 9.44,
+          "end": 9.6
+        },
+        {
+          "text": "shocked",
+          "start": 9.6,
+          "end": 10.08
+        }
+      ]
+    },
+    {
+      "start": 10.08,
+      "end": 11.08,
+      "words": [
+        {
+          "text": "the",
+          "start": 10.08,
+          "end": 10.24
+        },
+        {
+          "text": "country",
+          "start": 10.24,
+          "end": 10.72
+        },
+        {
+          "text": "at",
+          "start": 10.72,
+          "end": 10.88
+        },
+        {
+          "text": "the",
+          "start": 10.88,
+          "end": 11.12
+        }
+      ]
+    },
+    {
+      "start": 11.12,
+      "end": 11.8,
+      "words": [
+        {
+          "text": "time.",
+          "start": 11.12,
+          "end": 11.84
+        }
+      ]
+    },
+    {
+      "start": 11.84,
+      "end": 13.32,
+      "words": [
+        {
+          "text": "Today",
+          "start": 11.84,
+          "end": 12.32
+        },
+        {
+          "text": "a",
+          "start": 12.4,
+          "end": 12.56
+        },
+        {
+          "text": "single",
+          "start": 12.56,
+          "end": 12.88
+        },
+        {
+          "text": "scandal",
+          "start": 12.88,
+          "end": 13.36
+        }
+      ]
+    },
+    {
+      "start": 13.36,
+      "end": 14.82,
+      "words": [
+        {
+          "text": "can",
+          "start": 13.36,
+          "end": 13.52
+        },
+        {
+          "text": "wipe",
+          "start": 13.6,
+          "end": 14.02
+        },
+        {
+          "text": "out",
+          "start": 14.02,
+          "end": 14.44
+        },
+        {
+          "text": "20",
+          "start": 14.44,
+          "end": 14.86
+        }
+      ]
+    },
+    {
+      "start": 14.86,
+      "end": 16.52,
+      "words": [
+        {
+          "text": "times",
+          "start": 14.86,
+          "end": 15.28
+        },
+        {
+          "text": "that",
+          "start": 15.28,
+          "end": 15.6
+        },
+        {
+          "text": "amount.",
+          "start": 15.6,
+          "end": 16.56
+        }
+      ]
+    },
+    {
+      "start": 16.56,
+      "end": 17.72,
+      "words": [
+        {
+          "text": "We",
+          "start": 16.56,
+          "end": 16.8
+        },
+        {
+          "text": "went",
+          "start": 16.8,
+          "end": 17.2
+        },
+        {
+          "text": "through",
+          "start": 17.2,
+          "end": 17.52
+        },
+        {
+          "text": "all",
+          "start": 17.52,
+          "end": 17.76
+        }
+      ]
+    },
+    {
+      "start": 17.76,
+      "end": 18.96,
+      "words": [
+        {
+          "text": "40",
+          "start": 17.76,
+          "end": 18.24
+        },
+        {
+          "text": "major",
+          "start": 18.24,
+          "end": 18.56
+        },
+        {
+          "text": "court",
+          "start": 18.56,
+          "end": 18.88
+        }
+      ]
+    },
+    {
+      "start": 19.2,
+      "end": 20.76,
+      "words": [
+        {
+          "text": "verdicts",
+          "start": 19.2,
+          "end": 19.76
+        },
+        {
+          "text": "and",
+          "start": 19.92,
+          "end": 20.08
+        },
+        {
+          "text": "cases",
+          "start": 20.08,
+          "end": 20.56
+        },
+        {
+          "text": "from",
+          "start": 20.56,
+          "end": 20.8
+        }
+      ]
+    },
+    {
+      "start": 20.8,
+      "end": 22.76,
+      "words": [
+        {
+          "text": "2005",
+          "start": 20.8,
+          "end": 21.6
+        },
+        {
+          "text": "and",
+          "start": 21.84,
+          "end": 22.0
+        },
+        {
+          "text": "compared",
+          "start": 22.0,
+          "end": 22.56
+        },
+        {
+          "text": "them",
+          "start": 22.56,
+          "end": 22.8
+        }
+      ]
+    },
+    {
+      "start": 22.8,
+      "end": 24.52,
+      "words": [
+        {
+          "text": "to",
+          "start": 22.8,
+          "end": 22.96
+        },
+        {
+          "text": "the",
+          "start": 22.96,
+          "end": 23.12
+        },
+        {
+          "text": "scandals",
+          "start": 23.12,
+          "end": 23.76
+        },
+        {
+          "text": "unfolding",
+          "start": 23.76,
+          "end": 24.56
+        }
+      ]
+    },
+    {
+      "start": 24.56,
+      "end": 25.56,
+      "words": [
+        {
+          "text": "this",
+          "start": 24.56,
+          "end": 24.8
+        },
+        {
+          "text": "year.",
+          "start": 24.8,
+          "end": 25.6
+        }
+      ]
+    },
+    {
+      "start": 25.6,
+      "end": 27.32,
+      "words": [
+        {
+          "text": "And",
+          "start": 25.6,
+          "end": 25.84
+        },
+        {
+          "text": "the",
+          "start": 25.84,
+          "end": 26.08
+        },
+        {
+          "text": "comparisons",
+          "start": 26.08,
+          "end": 26.8
+        },
+        {
+          "text": "show",
+          "start": 26.96,
+          "end": 27.36
+        }
+      ]
+    },
+    {
+      "start": 27.36,
+      "end": 28.84,
+      "words": [
+        {
+          "text": "how",
+          "start": 27.36,
+          "end": 27.6
+        },
+        {
+          "text": "much",
+          "start": 27.6,
+          "end": 27.92
+        },
+        {
+          "text": "bigger",
+          "start": 27.92,
+          "end": 28.56
+        },
+        {
+          "text": "and",
+          "start": 28.56,
+          "end": 28.88
+        }
+      ]
+    },
+    {
+      "start": 28.88,
+      "end": 30.52,
+      "words": [
+        {
+          "text": "deeper",
+          "start": 28.88,
+          "end": 29.6
+        },
+        {
+          "text": "the",
+          "start": 29.6,
+          "end": 29.84
+        },
+        {
+          "text": "theft",
+          "start": 29.84,
+          "end": 30.32
+        },
+        {
+          "text": "has",
+          "start": 30.32,
+          "end": 30.56
+        }
+      ]
+    },
+    {
+      "start": 30.56,
+      "end": 31.04,
+      "words": [
+        {
+          "text": "grown",
+          "start": 30.56,
+          "end": 30.96
+        }
+      ]
+    },
+    {
+      "start": 31.28,
+      "end": 32.4,
+      "words": [
+        {
+          "text": "over",
+          "start": 31.28,
+          "end": 31.6
+        },
+        {
+          "text": "the",
+          "start": 31.6,
+          "end": 31.84
+        },
+        {
+          "text": "last",
+          "start": 31.84,
+          "end": 32.16
+        },
+        {
+          "text": "two",
+          "start": 32.16,
+          "end": 32.32
+        }
+      ]
+    },
+    {
+      "start": 32.48,
+      "end": 34.48,
+      "words": [
+        {
+          "text": "decades.",
+          "start": 32.48,
+          "end": 34.4
+        }
+      ]
+    },
+    {
+      "start": 34.907,
+      "end": 36.547,
+      "words": [
+        {
+          "text": "2005",
+          "start": 34.907,
+          "end": 35.787
+        },
+        {
+          "text": "was",
+          "start": 35.947,
+          "end": 36.187
+        },
+        {
+          "text": "the",
+          "start": 36.187,
+          "end": 36.347
+        },
+        {
+          "text": "first",
+          "start": 36.347,
+          "end": 36.587
+        }
+      ]
+    },
+    {
+      "start": 36.587,
+      "end": 38.867,
+      "words": [
+        {
+          "text": "year",
+          "start": 36.587,
+          "end": 36.907
+        },
+        {
+          "text": "sitting",
+          "start": 37.147,
+          "end": 37.627
+        },
+        {
+          "text": "regional",
+          "start": 37.627,
+          "end": 38.187
+        },
+        {
+          "text": "leaders,",
+          "start": 38.187,
+          "end": 38.907
+        }
+      ]
+    },
+    {
+      "start": 38.907,
+      "end": 40.187,
+      "words": [
+        {
+          "text": "ministers",
+          "start": 38.907,
+          "end": 39.387
+        },
+        {
+          "text": "and",
+          "start": 39.467,
+          "end": 39.707
+        },
+        {
+          "text": "election",
+          "start": 39.707,
+          "end": 40.107
+        }
+      ]
+    },
+    {
+      "start": 40.267,
+      "end": 41.587,
+      "words": [
+        {
+          "text": "officials",
+          "start": 40.267,
+          "end": 40.827
+        },
+        {
+          "text": "landed",
+          "start": 40.827,
+          "end": 41.387
+        },
+        {
+          "text": "in",
+          "start": 41.387,
+          "end": 41.547
+        },
+        {
+          "text": "the",
+          "start": 41.547,
+          "end": 41.627
+        }
+      ]
+    },
+    {
+      "start": 41.627,
+      "end": 43.907,
+      "words": [
+        {
+          "text": "new",
+          "start": 41.627,
+          "end": 41.947
+        },
+        {
+          "text": "anti-corruption",
+          "start": 41.947,
+          "end": 42.987
+        },
+        {
+          "text": "court.",
+          "start": 42.987,
+          "end": 43.947
+        }
+      ]
+    },
+    {
+      "start": 43.947,
+      "end": 45.027,
+      "words": [
+        {
+          "text": "The",
+          "start": 43.947,
+          "end": 44.187
+        },
+        {
+          "text": "case",
+          "start": 44.187,
+          "end": 44.507
+        },
+        {
+          "text": "that",
+          "start": 44.507,
+          "end": 44.667
+        },
+        {
+          "text": "kicked",
+          "start": 44.827,
+          "end": 45.067
+        }
+      ]
+    },
+    {
+      "start": 45.067,
+      "end": 46.787,
+      "words": [
+        {
+          "text": "it",
+          "start": 45.067,
+          "end": 45.227
+        },
+        {
+          "text": "off",
+          "start": 45.227,
+          "end": 45.307
+        },
+        {
+          "text": "involved",
+          "start": 45.467,
+          "end": 46.147
+        },
+        {
+          "text": "A.P.,",
+          "start": 46.147,
+          "end": 46.827
+        }
+      ]
+    },
+    {
+      "start": 46.827,
+      "end": 48.147,
+      "words": [
+        {
+          "text": "then",
+          "start": 46.827,
+          "end": 47.067
+        },
+        {
+          "text": "governor",
+          "start": 47.147,
+          "end": 47.547
+        },
+        {
+          "text": "of",
+          "start": 47.547,
+          "end": 47.627
+        },
+        {
+          "text": "Nanggroe",
+          "start": 47.627,
+          "end": 48.187
+        }
+      ]
+    },
+    {
+      "start": 48.187,
+      "end": 49.267,
+      "words": [
+        {
+          "text": "Aceh",
+          "start": 48.187,
+          "end": 48.747
+        },
+        {
+          "text": "Darussalam,",
+          "start": 48.747,
+          "end": 49.307
+        }
+      ]
+    },
+    {
+      "start": 49.307,
+      "end": 50.547,
+      "words": [
+        {
+          "text": "who",
+          "start": 49.307,
+          "end": 49.467
+        },
+        {
+          "text": "was",
+          "start": 49.467,
+          "end": 49.627
+        },
+        {
+          "text": "convicted",
+          "start": 49.627,
+          "end": 50.427
+        },
+        {
+          "text": "of",
+          "start": 50.427,
+          "end": 50.587
+        }
+      ]
+    },
+    {
+      "start": 50.587,
+      "end": 51.827,
+      "words": [
+        {
+          "text": "marking",
+          "start": 50.587,
+          "end": 51.147
+        },
+        {
+          "text": "up",
+          "start": 51.147,
+          "end": 51.307
+        },
+        {
+          "text": "the",
+          "start": 51.307,
+          "end": 51.387
+        },
+        {
+          "text": "purchase",
+          "start": 51.387,
+          "end": 51.867
+        }
+      ]
+    },
+    {
+      "start": 51.867,
+      "end": 53.987,
+      "words": [
+        {
+          "text": "of",
+          "start": 51.867,
+          "end": 52.027
+        },
+        {
+          "text": "an",
+          "start": 52.027,
+          "end": 52.187
+        },
+        {
+          "text": "MI-2",
+          "start": 52.187,
+          "end": 53.107
+        },
+        {
+          "text": "helicopter",
+          "start": 53.107,
+          "end": 54.027
+        }
+      ]
+    },
+    {
+      "start": 54.027,
+      "end": 56.867,
+      "words": [
+        {
+          "text": "by",
+          "start": 54.027,
+          "end": 54.347
+        },
+        {
+          "text": "13.6",
+          "start": 54.347,
+          "end": 55.307
+        },
+        {
+          "text": "billion",
+          "start": 55.467,
+          "end": 55.867
+        },
+        {
+          "text": "rupiah.",
+          "start": 55.867,
+          "end": 56.907
+        }
+      ]
+    },
+    {
+      "start": 56.907,
+      "end": 58.627,
+      "words": [
+        {
+          "text": "In",
+          "start": 56.907,
+          "end": 57.147
+        },
+        {
+          "text": "April",
+          "start": 57.147,
+          "end": 57.707
+        },
+        {
+          "text": "2005,",
+          "start": 57.707,
+          "end": 58.667
+        }
+      ]
+    },
+    {
+      "start": 58.667,
+      "end": 60.147,
+      "words": [
+        {
+          "text": "judges",
+          "start": 58.667,
+          "end": 59.147
+        },
+        {
+          "text": "sentenced",
+          "start": 59.147,
+          "end": 59.627
+        },
+        {
+          "text": "him",
+          "start": 59.627,
+          "end": 59.947
+        },
+        {
+          "text": "to",
+          "start": 59.947,
+          "end": 60.187
+        }
+      ]
+    },
+    {
+      "start": 60.187,
+      "end": 62.307,
+      "words": [
+        {
+          "text": "10",
+          "start": 60.187,
+          "end": 60.507
+        },
+        {
+          "text": "years",
+          "start": 60.507,
+          "end": 60.987
+        },
+        {
+          "text": "of",
+          "start": 60.987,
+          "end": 61.307
+        },
+        {
+          "text": "prison.",
+          "start": 61.307,
+          "end": 62.347
+        }
+      ]
+    },
+    {
+      "start": 62.347,
+      "end": 63.347,
+      "words": [
+        {
+          "text": "Around",
+          "start": 62.347,
+          "end": 62.827
+        },
+        {
+          "text": "the",
+          "start": 62.827,
+          "end": 62.907
+        },
+        {
+          "text": "same",
+          "start": 62.907,
+          "end": 63.067
+        },
+        {
+          "text": "time,",
+          "start": 63.067,
+          "end": 63.387
+        }
+      ]
+    },
+    {
+      "start": 63.387,
+      "end": 65.027,
+      "words": [
+        {
+          "text": "collective",
+          "start": 63.387,
+          "end": 63.867
+        },
+        {
+          "text": "budget",
+          "start": 64.027,
+          "end": 64.267
+        },
+        {
+          "text": "skimming",
+          "start": 64.427,
+          "end": 65.067
+        }
+      ]
+    },
+    {
+      "start": 65.067,
+      "end": 66.467,
+      "words": [
+        {
+          "text": "inside",
+          "start": 65.067,
+          "end": 65.467
+        },
+        {
+          "text": "local",
+          "start": 65.467,
+          "end": 65.787
+        },
+        {
+          "text": "parliaments",
+          "start": 65.787,
+          "end": 66.507
+        }
+      ]
+    },
+    {
+      "start": 66.507,
+      "end": 68.147,
+      "words": [
+        {
+          "text": "was",
+          "start": 66.507,
+          "end": 66.747
+        },
+        {
+          "text": "breaking",
+          "start": 66.747,
+          "end": 67.227
+        },
+        {
+          "text": "out",
+          "start": 67.227,
+          "end": 67.707
+        },
+        {
+          "text": "across",
+          "start": 67.707,
+          "end": 68.187
+        }
+      ]
+    },
+    {
+      "start": 68.187,
+      "end": 69.347,
+      "words": [
+        {
+          "text": "the",
+          "start": 68.187,
+          "end": 68.347
+        },
+        {
+          "text": "country.",
+          "start": 68.347,
+          "end": 69.387
+        }
+      ]
+    },
+    {
+      "start": 69.387,
+      "end": 70.707,
+      "words": [
+        {
+          "text": "In",
+          "start": 69.387,
+          "end": 69.627
+        },
+        {
+          "text": "Padang",
+          "start": 69.627,
+          "end": 70.187
+        },
+        {
+          "text": "City,",
+          "start": 70.187,
+          "end": 70.747
+        }
+      ]
+    },
+    {
+      "start": 70.747,
+      "end": 72.627,
+      "words": [
+        {
+          "text": "27",
+          "start": 70.747,
+          "end": 71.067
+        },
+        {
+          "text": "DPRD",
+          "start": 71.227,
+          "end": 71.707
+        },
+        {
+          "text": "members",
+          "start": 71.707,
+          "end": 72.187
+        },
+        {
+          "text": "got",
+          "start": 72.187,
+          "end": 72.667
+        }
+      ]
+    },
+    {
+      "start": 72.667,
+      "end": 73.907,
+      "words": [
+        {
+          "text": "four",
+          "start": 72.667,
+          "end": 72.827
+        },
+        {
+          "text": "year",
+          "start": 72.907,
+          "end": 73.227
+        },
+        {
+          "text": "sentences",
+          "start": 73.227,
+          "end": 73.787
+        },
+        {
+          "text": "for",
+          "start": 73.787,
+          "end": 73.947
+        }
+      ]
+    },
+    {
+      "start": 73.947,
+      "end": 75.027,
+      "words": [
+        {
+          "text": "misusing,",
+          "start": 73.947,
+          "end": 75.067
+        }
+      ]
+    },
+    {
+      "start": 75.067,
+      "end": 77.747,
+      "words": [
+        {
+          "text": "10.4",
+          "start": 75.067,
+          "end": 76.107
+        },
+        {
+          "text": "billion",
+          "start": 76.267,
+          "end": 76.747
+        },
+        {
+          "text": "rupiah",
+          "start": 76.747,
+          "end": 77.387
+        },
+        {
+          "text": "from",
+          "start": 77.547,
+          "end": 77.787
+        }
+      ]
+    },
+    {
+      "start": 77.787,
+      "end": 79.507,
+      "words": [
+        {
+          "text": "the",
+          "start": 77.787,
+          "end": 78.027
+        },
+        {
+          "text": "regional",
+          "start": 78.027,
+          "end": 78.427
+        },
+        {
+          "text": "budget.",
+          "start": 78.587,
+          "end": 79.547
+        }
+      ]
+    },
+    {
+      "start": 79.547,
+      "end": 81.187,
+      "words": [
+        {
+          "text": "In",
+          "start": 79.547,
+          "end": 79.787
+        },
+        {
+          "text": "West",
+          "start": 79.787,
+          "end": 80.267
+        },
+        {
+          "text": "Sumatra",
+          "start": 80.267,
+          "end": 80.747
+        },
+        {
+          "text": "Province,",
+          "start": 80.747,
+          "end": 81.227
+        }
+      ]
+    },
+    {
+      "start": 81.227,
+      "end": 83.027,
+      "words": [
+        {
+          "text": "43",
+          "start": 81.227,
+          "end": 81.547
+        },
+        {
+          "text": "DPRD",
+          "start": 81.707,
+          "end": 82.267
+        },
+        {
+          "text": "members",
+          "start": 82.267,
+          "end": 82.827
+        },
+        {
+          "text": "were",
+          "start": 82.827,
+          "end": 83.067
+        }
+      ]
+    },
+    {
+      "start": 83.067,
+      "end": 85.067,
+      "words": [
+        {
+          "text": "implicated",
+          "start": 83.067,
+          "end": 83.787
+        },
+        {
+          "text": "in",
+          "start": 83.787,
+          "end": 83.947
+        },
+        {
+          "text": "a",
+          "start": 83.947,
+          "end": 84.107
+        },
+        {
+          "text": "6.4",
+          "start": 84.107,
+          "end": 84.987
+        }
+      ]
+    },
+    {
+      "start": 85.147,
+      "end": 87.827,
+      "words": [
+        {
+          "text": "billion",
+          "start": 85.147,
+          "end": 85.547
+        },
+        {
+          "text": "rupiah",
+          "start": 85.547,
+          "end": 86.187
+        },
+        {
+          "text": "budget",
+          "start": 86.347,
+          "end": 86.907
+        },
+        {
+          "text": "case.",
+          "start": 86.907,
+          "end": 87.867
+        }
+      ]
+    },
+    {
+      "start": 87.867,
+      "end": 88.734,
+      "words": [
+        {
+          "text": "From",
+          "start": 87.867,
+          "end": 88.187
+        },
+        {
+          "text": "Semarang,",
+          "start": 88.187,
+          "end": 88.774
+        }
+      ]
+    },
+    {
+      "start": 88.774,
+      "end": 89.32,
+      "words": [
+        {
+          "text": "Cirebon,",
+          "start": 88.774,
+          "end": 89.36
+        }
+      ]
+    },
+    {
+      "start": 89.36,
+      "end": 89.907,
+      "words": [
+        {
+          "text": "Solo,",
+          "start": 89.36,
+          "end": 89.947
+        }
+      ]
+    },
+    {
+      "start": 89.947,
+      "end": 90.494,
+      "words": [
+        {
+          "text": "Manado,",
+          "start": 89.947,
+          "end": 90.534
+        }
+      ]
+    },
+    {
+      "start": 90.534,
+      "end": 91.667,
+      "words": [
+        {
+          "text": "and",
+          "start": 90.534,
+          "end": 91.12
+        },
+        {
+          "text": "Donggala,",
+          "start": 91.12,
+          "end": 91.707
+        }
+      ]
+    },
+    {
+      "start": 91.707,
+      "end": 93.107,
+      "words": [
+        {
+          "text": "local",
+          "start": 91.707,
+          "end": 92.027
+        },
+        {
+          "text": "council",
+          "start": 92.027,
+          "end": 92.507
+        },
+        {
+          "text": "members",
+          "start": 92.507,
+          "end": 92.907
+        },
+        {
+          "text": "were",
+          "start": 92.907,
+          "end": 93.067
+        }
+      ]
+    },
+    {
+      "start": 93.147,
+      "end": 95.107,
+      "words": [
+        {
+          "text": "carving",
+          "start": 93.147,
+          "end": 93.707
+        },
+        {
+          "text": "up",
+          "start": 93.707,
+          "end": 93.867
+        },
+        {
+          "text": "regional",
+          "start": 94.027,
+          "end": 94.427
+        },
+        {
+          "text": "budgets",
+          "start": 94.587,
+          "end": 95.147
+        }
+      ]
+    },
+    {
+      "start": 95.147,
+      "end": 96.107,
+      "words": [
+        {
+          "text": "together.",
+          "start": 95.147,
+          "end": 96.027
+        }
+      ]
+    },
+    {
+      "start": 96.377,
+      "end": 97.417,
+      "words": [
+        {
+          "text": "Next",
+          "start": 96.377,
+          "end": 96.617
+        },
+        {
+          "text": "to",
+          "start": 96.617,
+          "end": 96.857
+        },
+        {
+          "text": "today's",
+          "start": 96.857,
+          "end": 97.097
+        },
+        {
+          "text": "numbers,",
+          "start": 97.097,
+          "end": 97.337
+        }
+      ]
+    },
+    {
+      "start": 97.897,
+      "end": 99.457,
+      "words": [
+        {
+          "text": "stealing",
+          "start": 97.897,
+          "end": 98.457
+        },
+        {
+          "text": "a",
+          "start": 98.457,
+          "end": 98.697
+        },
+        {
+          "text": "few",
+          "start": 98.697,
+          "end": 99.017
+        },
+        {
+          "text": "billion",
+          "start": 99.017,
+          "end": 99.417
+        }
+      ]
+    },
+    {
+      "start": 99.497,
+      "end": 100.057,
+      "words": [
+        {
+          "text": "rupiah.",
+          "start": 99.497,
+          "end": 99.977
+        }
+      ]
+    },
+    {
+      "start": 100.217,
+      "end": 101.657,
+      "words": [
+        {
+          "text": "almost",
+          "start": 100.217,
+          "end": 100.67
+        },
+        {
+          "text": "looks",
+          "start": 100.67,
+          "end": 101.124
+        },
+        {
+          "text": "small.",
+          "start": 101.124,
+          "end": 101.577
+        }
+      ]
+    },
+    {
+      "start": 103.44,
+      "end": 105.0,
+      "words": [
+        {
+          "text": "Put",
+          "start": 103.44,
+          "end": 103.92
+        },
+        {
+          "text": "all",
+          "start": 104.16,
+          "end": 104.48
+        },
+        {
+          "text": "of",
+          "start": 104.48,
+          "end": 104.72
+        },
+        {
+          "text": "those",
+          "start": 104.72,
+          "end": 105.04
+        }
+      ]
+    },
+    {
+      "start": 105.04,
+      "end": 107.28,
+      "words": [
+        {
+          "text": "40",
+          "start": 105.04,
+          "end": 105.6
+        },
+        {
+          "text": "cases",
+          "start": 105.6,
+          "end": 106.16
+        },
+        {
+          "text": "from",
+          "start": 106.16,
+          "end": 106.4
+        },
+        {
+          "text": "2005",
+          "start": 106.4,
+          "end": 107.2
+        }
+      ]
+    },
+    {
+      "start": 107.36,
+      "end": 108.52,
+      "words": [
+        {
+          "text": "on",
+          "start": 107.36,
+          "end": 107.52
+        },
+        {
+          "text": "a",
+          "start": 107.52,
+          "end": 107.68
+        },
+        {
+          "text": "chart,",
+          "start": 107.68,
+          "end": 108.56
+        }
+      ]
+    },
+    {
+      "start": 108.56,
+      "end": 109.96,
+      "words": [
+        {
+          "text": "and",
+          "start": 108.56,
+          "end": 108.8
+        },
+        {
+          "text": "a",
+          "start": 108.8,
+          "end": 108.96
+        },
+        {
+          "text": "wide",
+          "start": 108.96,
+          "end": 109.48
+        },
+        {
+          "text": "gap",
+          "start": 109.48,
+          "end": 110.0
+        }
+      ]
+    },
+    {
+      "start": 110.0,
+      "end": 111.56,
+      "words": [
+        {
+          "text": "shows",
+          "start": 110.0,
+          "end": 110.48
+        },
+        {
+          "text": "up",
+          "start": 110.48,
+          "end": 110.72
+        },
+        {
+          "text": "between",
+          "start": 110.72,
+          "end": 111.28
+        },
+        {
+          "text": "where",
+          "start": 111.28,
+          "end": 111.6
+        }
+      ]
+    },
+    {
+      "start": 111.6,
+      "end": 112.92,
+      "words": [
+        {
+          "text": "the",
+          "start": 111.6,
+          "end": 111.76
+        },
+        {
+          "text": "corruption",
+          "start": 111.76,
+          "end": 112.48
+        },
+        {
+          "text": "happened",
+          "start": 112.48,
+          "end": 112.96
+        }
+      ]
+    },
+    {
+      "start": 112.96,
+      "end": 114.44,
+      "words": [
+        {
+          "text": "most",
+          "start": 112.96,
+          "end": 113.28
+        },
+        {
+          "text": "often",
+          "start": 113.28,
+          "end": 113.76
+        },
+        {
+          "text": "and",
+          "start": 113.92,
+          "end": 114.16
+        },
+        {
+          "text": "where",
+          "start": 114.16,
+          "end": 114.48
+        }
+      ]
+    },
+    {
+      "start": 114.48,
+      "end": 116.12,
+      "words": [
+        {
+          "text": "the",
+          "start": 114.48,
+          "end": 114.72
+        },
+        {
+          "text": "big",
+          "start": 114.72,
+          "end": 115.12
+        },
+        {
+          "text": "money",
+          "start": 115.12,
+          "end": 115.52
+        },
+        {
+          "text": "went.",
+          "start": 115.52,
+          "end": 116.16
+        }
+      ]
+    },
+    {
+      "start": 116.16,
+      "end": 117.32,
+      "words": [
+        {
+          "text": "By",
+          "start": 116.16,
+          "end": 116.32
+        },
+        {
+          "text": "case",
+          "start": 116.48,
+          "end": 116.72
+        },
+        {
+          "text": "count,",
+          "start": 116.88,
+          "end": 117.36
+        }
+      ]
+    },
+    {
+      "start": 117.36,
+      "end": 118.76,
+      "words": [
+        {
+          "text": "state",
+          "start": 117.36,
+          "end": 117.68
+        },
+        {
+          "text": "and",
+          "start": 117.68,
+          "end": 117.84
+        },
+        {
+          "text": "regional",
+          "start": 117.84,
+          "end": 118.24
+        },
+        {
+          "text": "budgets,",
+          "start": 118.24,
+          "end": 118.8
+        }
+      ]
+    },
+    {
+      "start": 118.8,
+      "end": 120.08,
+      "words": [
+        {
+          "text": "the",
+          "start": 118.8,
+          "end": 118.96
+        },
+        {
+          "text": "APBN",
+          "start": 118.96,
+          "end": 119.347
+        },
+        {
+          "text": "and",
+          "start": 119.347,
+          "end": 119.733
+        },
+        {
+          "text": "APBD,",
+          "start": 119.733,
+          "end": 120.12
+        }
+      ]
+    },
+    {
+      "start": 120.12,
+      "end": 121.48,
+      "words": [
+        {
+          "text": "topped",
+          "start": 120.12,
+          "end": 120.507
+        },
+        {
+          "text": "the",
+          "start": 120.507,
+          "end": 120.893
+        },
+        {
+          "text": "list",
+          "start": 120.893,
+          "end": 121.28
+        },
+        {
+          "text": "with",
+          "start": 121.28,
+          "end": 121.52
+        }
+      ]
+    },
+    {
+      "start": 121.52,
+      "end": 122.92,
+      "words": [
+        {
+          "text": "15",
+          "start": 121.52,
+          "end": 122.08
+        },
+        {
+          "text": "cases,",
+          "start": 122.08,
+          "end": 122.96
+        }
+      ]
+    },
+    {
+      "start": 122.96,
+      "end": 125.4,
+      "words": [
+        {
+          "text": "or",
+          "start": 122.96,
+          "end": 123.28
+        },
+        {
+          "text": "37.5%",
+          "start": 123.28,
+          "end": 124.72
+        },
+        {
+          "text": "of",
+          "start": 124.96,
+          "end": 125.12
+        },
+        {
+          "text": "the",
+          "start": 125.12,
+          "end": 125.44
+        }
+      ]
+    },
+    {
+      "start": 125.44,
+      "end": 126.28,
+      "words": [
+        {
+          "text": "total.",
+          "start": 125.44,
+          "end": 126.32
+        }
+      ]
+    },
+    {
+      "start": 126.32,
+      "end": 128.2,
+      "words": [
+        {
+          "text": "Yet",
+          "start": 126.32,
+          "end": 126.72
+        },
+        {
+          "text": "those",
+          "start": 126.88,
+          "end": 127.2
+        },
+        {
+          "text": "15",
+          "start": 127.2,
+          "end": 127.68
+        },
+        {
+          "text": "regional",
+          "start": 127.68,
+          "end": 128.24
+        }
+      ]
+    },
+    {
+      "start": 128.24,
+      "end": 129.8,
+      "words": [
+        {
+          "text": "cases",
+          "start": 128.24,
+          "end": 128.72
+        },
+        {
+          "text": "added",
+          "start": 128.72,
+          "end": 129.28
+        },
+        {
+          "text": "up",
+          "start": 129.28,
+          "end": 129.52
+        },
+        {
+          "text": "to",
+          "start": 129.52,
+          "end": 129.84
+        }
+      ]
+    },
+    {
+      "start": 129.84,
+      "end": 133.0,
+      "words": [
+        {
+          "text": "206.37",
+          "start": 129.84,
+          "end": 131.68
+        },
+        {
+          "text": "billion",
+          "start": 131.68,
+          "end": 132.0
+        },
+        {
+          "text": "rupiah,",
+          "start": 132.0,
+          "end": 133.04
+        }
+      ]
+    },
+    {
+      "start": 133.04,
+      "end": 134.96,
+      "words": [
+        {
+          "text": "or",
+          "start": 133.04,
+          "end": 133.28
+        },
+        {
+          "text": "just",
+          "start": 133.44,
+          "end": 133.76
+        },
+        {
+          "text": "2.3%",
+          "start": 133.76,
+          "end": 134.88
+        }
+      ]
+    },
+    {
+      "start": 135.2,
+      "end": 137.08,
+      "words": [
+        {
+          "text": "of",
+          "start": 135.2,
+          "end": 135.52
+        },
+        {
+          "text": "total",
+          "start": 135.52,
+          "end": 136.08
+        },
+        {
+          "text": "state",
+          "start": 136.08,
+          "end": 136.48
+        },
+        {
+          "text": "losses",
+          "start": 136.48,
+          "end": 137.12
+        }
+      ]
+    },
+    {
+      "start": 137.12,
+      "end": 138.52,
+      "words": [
+        {
+          "text": "that",
+          "start": 137.12,
+          "end": 137.44
+        },
+        {
+          "text": "year.",
+          "start": 137.44,
+          "end": 138.56
+        }
+      ]
+    },
+    {
+      "start": 138.56,
+      "end": 141.36,
+      "words": [
+        {
+          "text": "The",
+          "start": 138.56,
+          "end": 138.88
+        },
+        {
+          "text": "remaining",
+          "start": 138.88,
+          "end": 139.84
+        },
+        {
+          "text": "80.7%",
+          "start": 139.84,
+          "end": 141.28
+        }
+      ]
+    },
+    {
+      "start": 141.68,
+      "end": 143.16,
+      "words": [
+        {
+          "text": "came",
+          "start": 141.68,
+          "end": 142.16
+        },
+        {
+          "text": "from",
+          "start": 142.16,
+          "end": 142.48
+        },
+        {
+          "text": "banking",
+          "start": 142.48,
+          "end": 143.04
+        },
+        {
+          "text": "and",
+          "start": 143.04,
+          "end": 143.2
+        }
+      ]
+    },
+    {
+      "start": 143.2,
+      "end": 144.04,
+      "words": [
+        {
+          "text": "finance,",
+          "start": 143.2,
+          "end": 144.08
+        }
+      ]
+    },
+    {
+      "start": 144.08,
+      "end": 145.896,
+      "words": [
+        {
+          "text": "where",
+          "start": 144.08,
+          "end": 144.544
+        },
+        {
+          "text": "just",
+          "start": 144.544,
+          "end": 145.008
+        },
+        {
+          "text": "seven",
+          "start": 145.008,
+          "end": 145.472
+        },
+        {
+          "text": "cases",
+          "start": 145.472,
+          "end": 145.936
+        }
+      ]
+    },
+    {
+      "start": 145.936,
+      "end": 146.48,
+      "words": [
+        {
+          "text": "drained",
+          "start": 145.936,
+          "end": 146.4
+        }
+      ]
+    },
+    {
+      "start": 146.72,
+      "end": 150.4,
+      "words": [
+        {
+          "text": "7.13",
+          "start": 146.72,
+          "end": 148.16
+        },
+        {
+          "text": "trillion",
+          "start": 148.32,
+          "end": 148.8
+        },
+        {
+          "text": "rupiah.",
+          "start": 149.04,
+          "end": 150.32
+        }
+      ]
+    },
+    {
+      "start": 150.44,
+      "end": 151.12,
+      "words": [
+        {
+          "text": "P.S.",
+          "start": 150.44,
+          "end": 151.16
+        }
+      ]
+    },
+    {
+      "start": 151.16,
+      "end": 151.96,
+      "words": [
+        {
+          "text": "misused",
+          "start": 151.16,
+          "end": 151.88
+        }
+      ]
+    },
+    {
+      "start": 152.2,
+      "end": 155.52,
+      "words": [
+        {
+          "text": "2.02",
+          "start": 152.2,
+          "end": 153.96
+        },
+        {
+          "text": "trillion",
+          "start": 154.12,
+          "end": 154.68
+        },
+        {
+          "text": "rupiah",
+          "start": 154.84,
+          "end": 155.4
+        },
+        {
+          "text": "in",
+          "start": 155.4,
+          "end": 155.56
+        }
+      ]
+    },
+    {
+      "start": 155.56,
+      "end": 158.44,
+      "words": [
+        {
+          "text": "BLBI",
+          "start": 155.56,
+          "end": 156.093
+        },
+        {
+          "text": "debit",
+          "start": 156.093,
+          "end": 156.627
+        },
+        {
+          "text": "balance",
+          "start": 156.627,
+          "end": 157.16
+        },
+        {
+          "text": "facilities.",
+          "start": 157.32,
+          "end": 158.36
+        }
+      ]
+    },
+    {
+      "start": 158.71,
+      "end": 161.097,
+      "words": [
+        {
+          "text": "Bank",
+          "start": 158.71,
+          "end": 159.317
+        },
+        {
+          "text": "Mandiri",
+          "start": 159.317,
+          "end": 159.923
+        },
+        {
+          "text": "issued",
+          "start": 159.923,
+          "end": 160.53
+        },
+        {
+          "text": "Rp",
+          "start": 160.53,
+          "end": 161.137
+        }
+      ]
+    },
+    {
+      "start": 161.137,
+      "end": 163.523,
+      "words": [
+        {
+          "text": "1.89T",
+          "start": 161.137,
+          "end": 161.743
+        },
+        {
+          "text": "in",
+          "start": 161.743,
+          "end": 162.35
+        },
+        {
+          "text": "bad",
+          "start": 162.35,
+          "end": 162.957
+        },
+        {
+          "text": "loans",
+          "start": 162.957,
+          "end": 163.563
+        }
+      ]
+    },
+    {
+      "start": 163.563,
+      "end": 165.95,
+      "words": [
+        {
+          "text": "to",
+          "start": 163.563,
+          "end": 164.17
+        },
+        {
+          "text": "PT",
+          "start": 164.17,
+          "end": 164.777
+        },
+        {
+          "text": "Kiani",
+          "start": 164.777,
+          "end": 165.383
+        },
+        {
+          "text": "Kertas.",
+          "start": 165.383,
+          "end": 165.99
+        }
+      ]
+    },
+    {
+      "start": 165.99,
+      "end": 168.254,
+      "words": [
+        {
+          "text": "Fictitious",
+          "start": 165.99,
+          "end": 166.566
+        },
+        {
+          "text": "letters",
+          "start": 166.566,
+          "end": 167.142
+        },
+        {
+          "text": "of",
+          "start": 167.142,
+          "end": 167.718
+        },
+        {
+          "text": "credit",
+          "start": 167.718,
+          "end": 168.294
+        }
+      ]
+    },
+    {
+      "start": 168.294,
+      "end": 170.11,
+      "words": [
+        {
+          "text": "drained",
+          "start": 168.294,
+          "end": 168.87
+        },
+        {
+          "text": "1.7",
+          "start": 168.87,
+          "end": 169.51
+        },
+        {
+          "text": "trillion",
+          "start": 169.51,
+          "end": 169.99
+        },
+        {
+          "text": "from",
+          "start": 169.99,
+          "end": 170.15
+        }
+      ]
+    },
+    {
+      "start": 170.15,
+      "end": 172.27,
+      "words": [
+        {
+          "text": "Bank",
+          "start": 170.15,
+          "end": 170.69
+        },
+        {
+          "text": "BNI",
+          "start": 170.69,
+          "end": 171.23
+        },
+        {
+          "text": "Kebayoran",
+          "start": 171.23,
+          "end": 171.77
+        },
+        {
+          "text": "Baru,",
+          "start": 171.77,
+          "end": 172.31
+        }
+      ]
+    },
+    {
+      "start": 172.31,
+      "end": 174.51,
+      "words": [
+        {
+          "text": "and",
+          "start": 172.31,
+          "end": 172.55
+        },
+        {
+          "text": "another",
+          "start": 172.55,
+          "end": 173.11
+        },
+        {
+          "text": "1.3",
+          "start": 173.11,
+          "end": 173.91
+        },
+        {
+          "text": "trillion",
+          "start": 174.07,
+          "end": 174.55
+        }
+      ]
+    },
+    {
+      "start": 174.55,
+      "end": 176.75,
+      "words": [
+        {
+          "text": "vanished",
+          "start": 174.55,
+          "end": 175.35
+        },
+        {
+          "text": "from",
+          "start": 175.35,
+          "end": 175.51
+        },
+        {
+          "text": "Bank",
+          "start": 175.51,
+          "end": 176.15
+        },
+        {
+          "text": "Dagang",
+          "start": 176.15,
+          "end": 176.79
+        }
+      ]
+    },
+    {
+      "start": 176.79,
+      "end": 177.39,
+      "words": [
+        {
+          "text": "Bali.",
+          "start": 176.79,
+          "end": 177.43
+        }
+      ]
+    },
+    {
+      "start": 177.43,
+      "end": 178.67,
+      "words": [
+        {
+          "text": "Outside",
+          "start": 177.43,
+          "end": 178.07
+        },
+        {
+          "text": "banking,",
+          "start": 178.07,
+          "end": 178.71
+        }
+      ]
+    },
+    {
+      "start": 178.71,
+      "end": 180.51,
+      "words": [
+        {
+          "text": "former",
+          "start": 178.71,
+          "end": 179.11
+        },
+        {
+          "text": "Minister",
+          "start": 179.11,
+          "end": 179.59
+        },
+        {
+          "text": "of",
+          "start": 179.59,
+          "end": 180.07
+        },
+        {
+          "text": "Religious",
+          "start": 180.07,
+          "end": 180.55
+        }
+      ]
+    },
+    {
+      "start": 180.55,
+      "end": 182.03,
+      "words": [
+        {
+          "text": "affairs,",
+          "start": 180.55,
+          "end": 182.07
+        }
+      ]
+    },
+    {
+      "start": 182.07,
+      "end": 182.79,
+      "words": [
+        {
+          "text": "embezzled",
+          "start": 182.07,
+          "end": 182.71
+        }
+      ]
+    },
+    {
+      "start": 183.11,
+      "end": 185.87,
+      "words": [
+        {
+          "text": "719",
+          "start": 183.11,
+          "end": 184.55
+        },
+        {
+          "text": "billion",
+          "start": 184.55,
+          "end": 184.95
+        },
+        {
+          "text": "rupiah",
+          "start": 184.95,
+          "end": 185.51
+        },
+        {
+          "text": "from",
+          "start": 185.67,
+          "end": 185.91
+        }
+      ]
+    },
+    {
+      "start": 185.91,
+      "end": 187.35,
+      "words": [
+        {
+          "text": "the",
+          "start": 185.91,
+          "end": 186.07
+        },
+        {
+          "text": "Hajj",
+          "start": 186.07,
+          "end": 186.63
+        },
+        {
+          "text": "and",
+          "start": 186.63,
+          "end": 186.79
+        },
+        {
+          "text": "Ummah",
+          "start": 186.79,
+          "end": 187.39
+        }
+      ]
+    },
+    {
+      "start": 187.39,
+      "end": 188.99,
+      "words": [
+        {
+          "text": "Endowment",
+          "start": 187.39,
+          "end": 187.99
+        },
+        {
+          "text": "funds.",
+          "start": 187.99,
+          "end": 189.03
+        }
+      ]
+    },
+    {
+      "start": 189.03,
+      "end": 191.87,
+      "words": [
+        {
+          "text": "Even",
+          "start": 189.03,
+          "end": 189.59
+        },
+        {
+          "text": "the",
+          "start": 189.59,
+          "end": 189.91
+        },
+        {
+          "text": "2004",
+          "start": 189.91,
+          "end": 191.27
+        },
+        {
+          "text": "election",
+          "start": 191.43,
+          "end": 191.91
+        }
+      ]
+    },
+    {
+      "start": 191.91,
+      "end": 193.31,
+      "words": [
+        {
+          "text": "got",
+          "start": 191.91,
+          "end": 192.39
+        },
+        {
+          "text": "dragged",
+          "start": 192.39,
+          "end": 192.87
+        },
+        {
+          "text": "in,",
+          "start": 192.87,
+          "end": 193.35
+        }
+      ]
+    },
+    {
+      "start": 193.35,
+      "end": 195.35,
+      "words": [
+        {
+          "text": "with",
+          "start": 193.35,
+          "end": 193.67
+        },
+        {
+          "text": "four",
+          "start": 193.67,
+          "end": 194.15
+        },
+        {
+          "text": "separate",
+          "start": 194.15,
+          "end": 194.63
+        },
+        {
+          "text": "KPU",
+          "start": 194.63,
+          "end": 195.27
+        }
+      ]
+    },
+    {
+      "start": 195.51,
+      "end": 199.31,
+      "words": [
+        {
+          "text": "cases",
+          "start": 195.51,
+          "end": 195.99
+        },
+        {
+          "text": "totaling",
+          "start": 196.07,
+          "end": 196.79
+        },
+        {
+          "text": "15.53",
+          "start": 196.79,
+          "end": 198.79
+        },
+        {
+          "text": "billion",
+          "start": 198.87,
+          "end": 199.35
+        }
+      ]
+    },
+    {
+      "start": 199.35,
+      "end": 201.47,
+      "words": [
+        {
+          "text": "rupiah",
+          "start": 199.35,
+          "end": 199.99
+        },
+        {
+          "text": "involving",
+          "start": 200.23,
+          "end": 200.95
+        },
+        {
+          "text": "R.K.",
+          "start": 200.95,
+          "end": 201.51
+        }
+      ]
+    },
+    {
+      "start": 201.51,
+      "end": 203.39,
+      "words": [
+        {
+          "text": "over",
+          "start": 201.51,
+          "end": 202.07
+        },
+        {
+          "text": "ballot",
+          "start": 202.23,
+          "end": 202.71
+        },
+        {
+          "text": "paper,",
+          "start": 202.71,
+          "end": 203.43
+        }
+      ]
+    },
+    {
+      "start": 203.43,
+      "end": 203.81,
+      "words": [
+        {
+          "text": "N.S.",
+          "start": 203.43,
+          "end": 203.85
+        }
+      ]
+    },
+    {
+      "start": 203.85,
+      "end": 206.03,
+      "words": [
+        {
+          "text": "over",
+          "start": 203.85,
+          "end": 204.27
+        },
+        {
+          "text": "poll",
+          "start": 204.27,
+          "end": 204.69
+        },
+        {
+          "text": "worker",
+          "start": 204.69,
+          "end": 205.11
+        },
+        {
+          "text": "Insurance,",
+          "start": 205.19,
+          "end": 206.07
+        }
+      ]
+    },
+    {
+      "start": 206.07,
+      "end": 206.55,
+      "words": [
+        {
+          "text": "D.D.",
+          "start": 206.07,
+          "end": 206.59
+        }
+      ]
+    },
+    {
+      "start": 206.59,
+      "end": 208.23,
+      "words": [
+        {
+          "text": "over",
+          "start": 206.59,
+          "end": 207.11
+        },
+        {
+          "text": "election",
+          "start": 207.11,
+          "end": 207.63
+        },
+        {
+          "text": "ink,",
+          "start": 207.63,
+          "end": 208.15
+        }
+      ]
+    },
+    {
+      "start": 208.39,
+      "end": 209.83,
+      "words": [
+        {
+          "text": "and",
+          "start": 208.39,
+          "end": 208.55
+        },
+        {
+          "text": "M.W.K.,",
+          "start": 208.55,
+          "end": 209.75
+        }
+      ]
+    },
+    {
+      "start": 209.91,
+      "end": 211.55,
+      "words": [
+        {
+          "text": "who",
+          "start": 209.91,
+          "end": 210.07
+        },
+        {
+          "text": "was",
+          "start": 210.07,
+          "end": 210.31
+        },
+        {
+          "text": "caught",
+          "start": 210.31,
+          "end": 210.71
+        },
+        {
+          "text": "bribing",
+          "start": 210.87,
+          "end": 211.59
+        }
+      ]
+    },
+    {
+      "start": 211.59,
+      "end": 212.79,
+      "words": [
+        {
+          "text": "a",
+          "start": 211.59,
+          "end": 211.75
+        },
+        {
+          "text": "state",
+          "start": 211.75,
+          "end": 212.15
+        },
+        {
+          "text": "auditor",
+          "start": 212.15,
+          "end": 212.71
+        }
+      ]
+    },
+    {
+      "start": 213.19,
+      "end": 216.768,
+      "words": [
+        {
+          "text": "with",
+          "start": 213.19,
+          "end": 213.51
+        },
+        {
+          "text": "300",
+          "start": 213.51,
+          "end": 214.63
+        },
+        {
+          "text": "million",
+          "start": 214.63,
+          "end": 215.11
+        },
+        {
+          "text": "rupiah.",
+          "start": 215.11,
+          "end": 216.768
+        }
+      ]
+    },
+    {
+      "start": 217.168,
+      "end": 218.328,
+      "words": [
+        {
+          "text": "The",
+          "start": 217.168,
+          "end": 217.408
+        },
+        {
+          "text": "difference",
+          "start": 217.408,
+          "end": 217.888
+        },
+        {
+          "text": "between",
+          "start": 217.888,
+          "end": 218.368
+        }
+      ]
+    },
+    {
+      "start": 218.368,
+      "end": 220.088,
+      "words": [
+        {
+          "text": "2005",
+          "start": 218.368,
+          "end": 219.088
+        },
+        {
+          "text": "and",
+          "start": 219.248,
+          "end": 219.408
+        },
+        {
+          "text": "the",
+          "start": 219.408,
+          "end": 219.568
+        },
+        {
+          "text": "scandals",
+          "start": 219.568,
+          "end": 220.128
+        }
+      ]
+    },
+    {
+      "start": 220.128,
+      "end": 221.528,
+      "words": [
+        {
+          "text": "hitting",
+          "start": 220.128,
+          "end": 220.528
+        },
+        {
+          "text": "Indonesia",
+          "start": 220.528,
+          "end": 221.168
+        },
+        {
+          "text": "today",
+          "start": 221.168,
+          "end": 221.488
+        }
+      ]
+    },
+    {
+      "start": 221.568,
+      "end": 223.768,
+      "words": [
+        {
+          "text": "goes",
+          "start": 221.568,
+          "end": 221.968
+        },
+        {
+          "text": "well",
+          "start": 221.968,
+          "end": 222.288
+        },
+        {
+          "text": "beyond",
+          "start": 222.288,
+          "end": 222.848
+        },
+        {
+          "text": "inflation.",
+          "start": 222.848,
+          "end": 223.808
+        }
+      ]
+    },
+    {
+      "start": 223.808,
+      "end": 224.408,
+      "words": [
+        {
+          "text": "For",
+          "start": 223.808,
+          "end": 224.128
+        },
+        {
+          "text": "one,",
+          "start": 224.128,
+          "end": 224.448
+        }
+      ]
+    },
+    {
+      "start": 224.448,
+      "end": 226.328,
+      "words": [
+        {
+          "text": "the",
+          "start": 224.448,
+          "end": 224.608
+        },
+        {
+          "text": "scale",
+          "start": 224.608,
+          "end": 225.088
+        },
+        {
+          "text": "has",
+          "start": 225.088,
+          "end": 225.248
+        },
+        {
+          "text": "exploded,",
+          "start": 225.408,
+          "end": 226.368
+        }
+      ]
+    },
+    {
+      "start": 226.368,
+      "end": 227.928,
+      "words": [
+        {
+          "text": "all",
+          "start": 226.368,
+          "end": 226.528
+        },
+        {
+          "text": "40",
+          "start": 226.688,
+          "end": 227.168
+        },
+        {
+          "text": "major",
+          "start": 227.168,
+          "end": 227.568
+        },
+        {
+          "text": "cases",
+          "start": 227.568,
+          "end": 227.968
+        }
+      ]
+    },
+    {
+      "start": 227.968,
+      "end": 230.088,
+      "words": [
+        {
+          "text": "in",
+          "start": 227.968,
+          "end": 228.128
+        },
+        {
+          "text": "2005",
+          "start": 228.128,
+          "end": 228.848
+        },
+        {
+          "text": "combined",
+          "start": 229.088,
+          "end": 229.808
+        },
+        {
+          "text": "for",
+          "start": 229.808,
+          "end": 230.128
+        }
+      ]
+    },
+    {
+      "start": 230.128,
+      "end": 232.888,
+      "words": [
+        {
+          "text": "8.84",
+          "start": 230.128,
+          "end": 231.328
+        },
+        {
+          "text": "trillion",
+          "start": 231.488,
+          "end": 231.968
+        },
+        {
+          "text": "rupiah.",
+          "start": 231.968,
+          "end": 232.928
+        }
+      ]
+    },
+    {
+      "start": 232.928,
+      "end": 234.408,
+      "words": [
+        {
+          "text": "Whereas",
+          "start": 232.928,
+          "end": 233.488
+        },
+        {
+          "text": "today,",
+          "start": 233.648,
+          "end": 234.448
+        }
+      ]
+    },
+    {
+      "start": 234.448,
+      "end": 236.328,
+      "words": [
+        {
+          "text": "a",
+          "start": 234.448,
+          "end": 234.688
+        },
+        {
+          "text": "single",
+          "start": 234.688,
+          "end": 235.248
+        },
+        {
+          "text": "case",
+          "start": 235.248,
+          "end": 235.808
+        },
+        {
+          "text": "inside",
+          "start": 235.808,
+          "end": 236.368
+        }
+      ]
+    },
+    {
+      "start": 236.368,
+      "end": 238.608,
+      "words": [
+        {
+          "text": "a",
+          "start": 236.368,
+          "end": 236.608
+        },
+        {
+          "text": "state-owned",
+          "start": 236.608,
+          "end": 237.648
+        },
+        {
+          "text": "enterprise",
+          "start": 237.808,
+          "end": 238.528
+        }
+      ]
+    },
+    {
+      "start": 238.688,
+      "end": 240.688,
+      "words": [
+        {
+          "text": "or",
+          "start": 238.688,
+          "end": 238.928
+        },
+        {
+          "text": "natural",
+          "start": 238.928,
+          "end": 239.488
+        },
+        {
+          "text": "resource",
+          "start": 239.488,
+          "end": 239.968
+        },
+        {
+          "text": "sector",
+          "start": 240.128,
+          "end": 240.608
+        }
+      ]
+    },
+    {
+      "start": 241.008,
+      "end": 243.088,
+      "words": [
+        {
+          "text": "routinely",
+          "start": 241.008,
+          "end": 241.808
+        },
+        {
+          "text": "hits",
+          "start": 241.808,
+          "end": 242.248
+        },
+        {
+          "text": "tens",
+          "start": 242.248,
+          "end": 242.688
+        },
+        {
+          "text": "or",
+          "start": 242.688,
+          "end": 243.128
+        }
+      ]
+    },
+    {
+      "start": 243.128,
+      "end": 244.888,
+      "words": [
+        {
+          "text": "hundreds",
+          "start": 243.128,
+          "end": 243.568
+        },
+        {
+          "text": "of",
+          "start": 243.568,
+          "end": 243.728
+        },
+        {
+          "text": "trillions.",
+          "start": 243.728,
+          "end": 244.928
+        }
+      ]
+    },
+    {
+      "start": 244.928,
+      "end": 246.208,
+      "words": [
+        {
+          "text": "In",
+          "start": 244.928,
+          "end": 245.168
+        },
+        {
+          "text": "the",
+          "start": 245.168,
+          "end": 245.408
+        },
+        {
+          "text": "fuel",
+          "start": 245.408,
+          "end": 245.808
+        },
+        {
+          "text": "import",
+          "start": 245.968,
+          "end": 246.128
+        }
+      ]
+    },
+    {
+      "start": 246.368,
+      "end": 247.688,
+      "words": [
+        {
+          "text": "and",
+          "start": 246.368,
+          "end": 246.528
+        },
+        {
+          "text": "blending",
+          "start": 246.528,
+          "end": 247.088
+        },
+        {
+          "text": "scandal",
+          "start": 247.088,
+          "end": 247.408
+        },
+        {
+          "text": "at",
+          "start": 247.488,
+          "end": 247.648
+        }
+      ]
+    },
+    {
+      "start": 247.728,
+      "end": 249.728,
+      "words": [
+        {
+          "text": "state",
+          "start": 247.728,
+          "end": 248.048
+        },
+        {
+          "text": "energy",
+          "start": 248.048,
+          "end": 248.288
+        },
+        {
+          "text": "firm",
+          "start": 248.448,
+          "end": 249.048
+        },
+        {
+          "text": "Pertamina",
+          "start": 249.048,
+          "end": 249.648
+        }
+      ]
+    },
+    {
+      "start": 250.048,
+      "end": 251.888,
+      "words": [
+        {
+          "text": "involving",
+          "start": 250.048,
+          "end": 250.688
+        },
+        {
+          "text": "executive",
+          "start": 250.688,
+          "end": 251.408
+        },
+        {
+          "text": "like",
+          "start": 251.568,
+          "end": 251.808
+        }
+      ]
+    },
+    {
+      "start": 251.968,
+      "end": 253.128,
+      "words": [
+        {
+          "text": "R.S.,",
+          "start": 251.968,
+          "end": 253.168
+        }
+      ]
+    },
+    {
+      "start": 253.168,
+      "end": 255.368,
+      "words": [
+        {
+          "text": "investigators",
+          "start": 253.168,
+          "end": 254.368
+        },
+        {
+          "text": "calculated",
+          "start": 254.528,
+          "end": 255.408
+        }
+      ]
+    },
+    {
+      "start": 255.408,
+      "end": 257.288,
+      "words": [
+        {
+          "text": "annual",
+          "start": 255.408,
+          "end": 255.888
+        },
+        {
+          "text": "state",
+          "start": 255.888,
+          "end": 256.208
+        },
+        {
+          "text": "losses",
+          "start": 256.208,
+          "end": 257.008
+        },
+        {
+          "text": "at",
+          "start": 257.008,
+          "end": 257.328
+        }
+      ]
+    },
+    {
+      "start": 257.328,
+      "end": 261.928,
+      "words": [
+        {
+          "text": "193.7",
+          "start": 257.328,
+          "end": 259.568
+        },
+        {
+          "text": "trillion",
+          "start": 259.728,
+          "end": 260.368
+        },
+        {
+          "text": "rupiah.",
+          "start": 260.368,
+          "end": 261.968
+        }
+      ]
+    },
+    {
+      "start": 261.968,
+      "end": 263.608,
+      "words": [
+        {
+          "text": "The",
+          "start": 261.968,
+          "end": 262.421
+        },
+        {
+          "text": "methods",
+          "start": 262.421,
+          "end": 262.875
+        },
+        {
+          "text": "have",
+          "start": 262.875,
+          "end": 263.328
+        },
+        {
+          "text": "also",
+          "start": 263.328,
+          "end": 263.648
+        }
+      ]
+    },
+    {
+      "start": 263.648,
+      "end": 265.528,
+      "words": [
+        {
+          "text": "changed",
+          "start": 263.648,
+          "end": 264.208
+        },
+        {
+          "text": "in",
+          "start": 264.368,
+          "end": 264.528
+        },
+        {
+          "text": "2005,",
+          "start": 264.528,
+          "end": 265.568
+        }
+      ]
+    },
+    {
+      "start": 265.568,
+      "end": 267.528,
+      "words": [
+        {
+          "text": "officials",
+          "start": 265.568,
+          "end": 266.208
+        },
+        {
+          "text": "relied",
+          "start": 266.208,
+          "end": 266.768
+        },
+        {
+          "text": "on",
+          "start": 266.768,
+          "end": 267.008
+        },
+        {
+          "text": "procurement",
+          "start": 267.008,
+          "end": 267.568
+        }
+      ]
+    },
+    {
+      "start": 267.568,
+      "end": 269.608,
+      "words": [
+        {
+          "text": "markups",
+          "start": 267.568,
+          "end": 268.368
+        },
+        {
+          "text": "on",
+          "start": 268.528,
+          "end": 268.768
+        },
+        {
+          "text": "helicopters",
+          "start": 268.768,
+          "end": 269.568
+        }
+      ]
+    },
+    {
+      "start": 269.648,
+      "end": 271.208,
+      "words": [
+        {
+          "text": "or",
+          "start": 269.648,
+          "end": 269.808
+        },
+        {
+          "text": "stationery",
+          "start": 269.808,
+          "end": 270.528
+        },
+        {
+          "text": "and",
+          "start": 270.608,
+          "end": 270.768
+        },
+        {
+          "text": "direct",
+          "start": 270.768,
+          "end": 271.248
+        }
+      ]
+    },
+    {
+      "start": 271.248,
+      "end": 272.648,
+      "words": [
+        {
+          "text": "cash",
+          "start": 271.248,
+          "end": 271.488
+        },
+        {
+          "text": "skimming",
+          "start": 271.648,
+          "end": 272.128
+        },
+        {
+          "text": "from",
+          "start": 272.128,
+          "end": 272.368
+        },
+        {
+          "text": "local",
+          "start": 272.368,
+          "end": 272.688
+        }
+      ]
+    },
+    {
+      "start": 272.688,
+      "end": 273.958,
+      "words": [
+        {
+          "text": "budgets.",
+          "start": 272.688,
+          "end": 273.888
+        }
+      ]
+    },
+    {
+      "start": 273.998,
+      "end": 274.518,
+      "words": [
+        {
+          "text": "Today,",
+          "start": 273.998,
+          "end": 274.558
+        }
+      ]
+    },
+    {
+      "start": 274.558,
+      "end": 276.358,
+      "words": [
+        {
+          "text": "corrupt",
+          "start": 274.558,
+          "end": 275.118
+        },
+        {
+          "text": "networks",
+          "start": 275.118,
+          "end": 275.758
+        },
+        {
+          "text": "capture",
+          "start": 275.758,
+          "end": 276.398
+        }
+      ]
+    },
+    {
+      "start": 276.398,
+      "end": 278.038,
+      "words": [
+        {
+          "text": "entire",
+          "start": 276.398,
+          "end": 276.958
+        },
+        {
+          "text": "supply",
+          "start": 276.958,
+          "end": 277.438
+        },
+        {
+          "text": "chains,",
+          "start": 277.438,
+          "end": 278.078
+        }
+      ]
+    },
+    {
+      "start": 278.078,
+      "end": 280.038,
+      "words": [
+        {
+          "text": "manipulate",
+          "start": 278.078,
+          "end": 278.878
+        },
+        {
+          "text": "import",
+          "start": 278.878,
+          "end": 279.198
+        },
+        {
+          "text": "quotas",
+          "start": 279.438,
+          "end": 279.998
+        }
+      ]
+    },
+    {
+      "start": 280.078,
+      "end": 282.038,
+      "words": [
+        {
+          "text": "and",
+          "start": 280.078,
+          "end": 280.238
+        },
+        {
+          "text": "rig",
+          "start": 280.398,
+          "end": 281.038
+        },
+        {
+          "text": "licensing",
+          "start": 281.038,
+          "end": 281.678
+        },
+        {
+          "text": "across",
+          "start": 281.678,
+          "end": 281.998
+        }
+      ]
+    },
+    {
+      "start": 282.078,
+      "end": 284.118,
+      "words": [
+        {
+          "text": "state",
+          "start": 282.078,
+          "end": 282.398
+        },
+        {
+          "text": "monopolies.",
+          "start": 282.558,
+          "end": 284.158
+        }
+      ]
+    },
+    {
+      "start": 284.158,
+      "end": 286.278,
+      "words": [
+        {
+          "text": "Bribery",
+          "start": 284.158,
+          "end": 285.118
+        },
+        {
+          "text": "has",
+          "start": 285.118,
+          "end": 285.438
+        },
+        {
+          "text": "even",
+          "start": 285.438,
+          "end": 285.758
+        },
+        {
+          "text": "reached",
+          "start": 285.758,
+          "end": 286.318
+        }
+      ]
+    },
+    {
+      "start": 286.318,
+      "end": 288.118,
+      "words": [
+        {
+          "text": "the",
+          "start": 286.318,
+          "end": 286.478
+        },
+        {
+          "text": "courts",
+          "start": 286.478,
+          "end": 287.118
+        },
+        {
+          "text": "themselves,",
+          "start": 287.118,
+          "end": 288.158
+        }
+      ]
+    },
+    {
+      "start": 288.158,
+      "end": 290.198,
+      "words": [
+        {
+          "text": "with",
+          "start": 288.158,
+          "end": 288.478
+        },
+        {
+          "text": "recent",
+          "start": 288.478,
+          "end": 289.038
+        },
+        {
+          "text": "cases",
+          "start": 289.038,
+          "end": 289.678
+        },
+        {
+          "text": "catching",
+          "start": 289.678,
+          "end": 290.238
+        }
+      ]
+    },
+    {
+      "start": 290.238,
+      "end": 292.158,
+      "words": [
+        {
+          "text": "judges",
+          "start": 290.238,
+          "end": 290.718
+        },
+        {
+          "text": "and",
+          "start": 290.718,
+          "end": 290.958
+        },
+        {
+          "text": "court",
+          "start": 290.958,
+          "end": 291.358
+        },
+        {
+          "text": "officials",
+          "start": 291.358,
+          "end": 292.078
+        }
+      ]
+    },
+    {
+      "start": 292.318,
+      "end": 294.078,
+      "words": [
+        {
+          "text": "taking",
+          "start": 292.318,
+          "end": 292.878
+        },
+        {
+          "text": "tens",
+          "start": 292.878,
+          "end": 293.358
+        },
+        {
+          "text": "of",
+          "start": 293.358,
+          "end": 293.598
+        },
+        {
+          "text": "billions",
+          "start": 293.598,
+          "end": 293.998
+        }
+      ]
+    },
+    {
+      "start": 294.158,
+      "end": 296.118,
+      "words": [
+        {
+          "text": "rupiah",
+          "start": 294.158,
+          "end": 295.038
+        },
+        {
+          "text": "just",
+          "start": 295.198,
+          "end": 295.518
+        },
+        {
+          "text": "to",
+          "start": 295.518,
+          "end": 295.758
+        },
+        {
+          "text": "fix",
+          "start": 295.758,
+          "end": 296.158
+        }
+      ]
+    },
+    {
+      "start": 296.158,
+      "end": 298.118,
+      "words": [
+        {
+          "text": "verdicts",
+          "start": 296.158,
+          "end": 296.638
+        },
+        {
+          "text": "in",
+          "start": 296.878,
+          "end": 297.038
+        },
+        {
+          "text": "major",
+          "start": 297.038,
+          "end": 297.358
+        },
+        {
+          "text": "corporate",
+          "start": 297.518,
+          "end": 298.158
+        }
+      ]
+    },
+    {
+      "start": 298.158,
+      "end": 300.318,
+      "words": [
+        {
+          "text": "export",
+          "start": 298.158,
+          "end": 298.798
+        },
+        {
+          "text": "cases.",
+          "start": 298.958,
+          "end": 300.238
+        }
+      ]
+    },
+    {
+      "start": 300.907,
+      "end": 302.307,
+      "words": [
+        {
+          "text": "Having",
+          "start": 300.907,
+          "end": 301.307
+        },
+        {
+          "text": "anti-corruption",
+          "start": 301.307,
+          "end": 302.347
+        }
+      ]
+    },
+    {
+      "start": 302.347,
+      "end": 303.827,
+      "words": [
+        {
+          "text": "laws",
+          "start": 302.347,
+          "end": 302.667
+        },
+        {
+          "text": "and",
+          "start": 302.667,
+          "end": 302.907
+        },
+        {
+          "text": "special",
+          "start": 302.907,
+          "end": 303.387
+        },
+        {
+          "text": "courts",
+          "start": 303.387,
+          "end": 303.867
+        }
+      ]
+    },
+    {
+      "start": 303.867,
+      "end": 305.947,
+      "words": [
+        {
+          "text": "on",
+          "start": 303.867,
+          "end": 304.107
+        },
+        {
+          "text": "paper",
+          "start": 304.107,
+          "end": 304.587
+        },
+        {
+          "text": "never",
+          "start": 304.827,
+          "end": 305.407
+        },
+        {
+          "text": "stopped",
+          "start": 305.407,
+          "end": 305.987
+        }
+      ]
+    },
+    {
+      "start": 305.987,
+      "end": 307.107,
+      "words": [
+        {
+          "text": "the",
+          "start": 305.987,
+          "end": 306.567
+        },
+        {
+          "text": "theft.",
+          "start": 306.567,
+          "end": 307.147
+        }
+      ]
+    },
+    {
+      "start": 307.147,
+      "end": 308.547,
+      "words": [
+        {
+          "text": "Over",
+          "start": 307.147,
+          "end": 307.547
+        },
+        {
+          "text": "the",
+          "start": 307.547,
+          "end": 307.787
+        },
+        {
+          "text": "past",
+          "start": 307.787,
+          "end": 308.107
+        },
+        {
+          "text": "21",
+          "start": 308.107,
+          "end": 308.587
+        }
+      ]
+    },
+    {
+      "start": 308.587,
+      "end": 308.947,
+      "words": [
+        {
+          "text": "years,",
+          "start": 308.587,
+          "end": 308.987
+        }
+      ]
+    },
+    {
+      "start": 308.987,
+      "end": 311.107,
+      "words": [
+        {
+          "text": "corrupt",
+          "start": 308.987,
+          "end": 309.467
+        },
+        {
+          "text": "actors",
+          "start": 309.627,
+          "end": 310.387
+        },
+        {
+          "text": "adapted,",
+          "start": 310.387,
+          "end": 311.147
+        }
+      ]
+    },
+    {
+      "start": 311.147,
+      "end": 312.947,
+      "words": [
+        {
+          "text": "moving",
+          "start": 311.147,
+          "end": 311.627
+        },
+        {
+          "text": "from",
+          "start": 311.627,
+          "end": 311.867
+        },
+        {
+          "text": "skimming",
+          "start": 311.867,
+          "end": 312.347
+        },
+        {
+          "text": "regional",
+          "start": 312.507,
+          "end": 312.987
+        }
+      ]
+    },
+    {
+      "start": 312.987,
+      "end": 314.987,
+      "words": [
+        {
+          "text": "budgets",
+          "start": 312.987,
+          "end": 313.707
+        },
+        {
+          "text": "in",
+          "start": 313.707,
+          "end": 314.027
+        },
+        {
+          "text": "the",
+          "start": 314.027,
+          "end": 314.267
+        },
+        {
+          "text": "billions",
+          "start": 314.267,
+          "end": 314.907
+        }
+      ]
+    },
+    {
+      "start": 315.067,
+      "end": 317.667,
+      "words": [
+        {
+          "text": "to",
+          "start": 315.067,
+          "end": 315.307
+        },
+        {
+          "text": "capturing",
+          "start": 315.307,
+          "end": 316.107
+        },
+        {
+          "text": "state",
+          "start": 316.107,
+          "end": 316.587
+        },
+        {
+          "text": "enterprises,",
+          "start": 316.587,
+          "end": 317.707
+        }
+      ]
+    },
+    {
+      "start": 317.707,
+      "end": 318.867,
+      "words": [
+        {
+          "text": "energy",
+          "start": 317.707,
+          "end": 318.187
+        },
+        {
+          "text": "imports,",
+          "start": 318.187,
+          "end": 318.907
+        }
+      ]
+    },
+    {
+      "start": 318.907,
+      "end": 320.547,
+      "words": [
+        {
+          "text": "and",
+          "start": 318.907,
+          "end": 319.147
+        },
+        {
+          "text": "judicial",
+          "start": 319.147,
+          "end": 319.787
+        },
+        {
+          "text": "verdicts",
+          "start": 319.787,
+          "end": 320.347
+        },
+        {
+          "text": "in",
+          "start": 320.427,
+          "end": 320.587
+        }
+      ]
+    },
+    {
+      "start": 320.587,
+      "end": 322.147,
+      "words": [
+        {
+          "text": "the",
+          "start": 320.587,
+          "end": 320.747
+        },
+        {
+          "text": "trillions.",
+          "start": 320.747,
+          "end": 322.187
+        }
+      ]
+    },
+    {
+      "start": 322.187,
+      "end": 323.767,
+      "words": [
+        {
+          "text": "The",
+          "start": 322.187,
+          "end": 322.427
+        },
+        {
+          "text": "loopholes",
+          "start": 322.427,
+          "end": 322.887
+        },
+        {
+          "text": "in",
+          "start": 322.887,
+          "end": 323.347
+        },
+        {
+          "text": "public",
+          "start": 323.347,
+          "end": 323.807
+        }
+      ]
+    },
+    {
+      "start": 323.807,
+      "end": 324.347,
+      "words": [
+        {
+          "text": "oversight",
+          "start": 323.807,
+          "end": 324.267
+        }
+      ]
+    },
+    {
+      "start": 324.667,
+      "end": 326.067,
+      "words": [
+        {
+          "text": "stayed",
+          "start": 324.667,
+          "end": 325.147
+        },
+        {
+          "text": "open",
+          "start": 325.147,
+          "end": 325.467
+        },
+        {
+          "text": "and",
+          "start": 325.707,
+          "end": 325.947
+        },
+        {
+          "text": "the",
+          "start": 325.947,
+          "end": 326.107
+        }
+      ]
+    },
+    {
+      "start": 326.107,
+      "end": 328.547,
+      "words": [
+        {
+          "text": "penalties",
+          "start": 326.107,
+          "end": 327.307
+        },
+        {
+          "text": "failed",
+          "start": 327.307,
+          "end": 327.867
+        },
+        {
+          "text": "to",
+          "start": 327.867,
+          "end": 328.027
+        },
+        {
+          "text": "scare",
+          "start": 328.027,
+          "end": 328.587
+        }
+      ]
+    },
+    {
+      "start": 328.587,
+      "end": 330.787,
+      "words": [
+        {
+          "text": "anyone",
+          "start": 328.587,
+          "end": 329.147
+        },
+        {
+          "text": "off.",
+          "start": 329.147,
+          "end": 330.827
+        }
+      ]
+    },
+    {
+      "start": 330.827,
+      "end": 332.867,
+      "words": [
+        {
+          "text": "Between",
+          "start": 330.827,
+          "end": 331.467
+        },
+        {
+          "text": "the",
+          "start": 331.467,
+          "end": 331.627
+        },
+        {
+          "text": "brazen",
+          "start": 331.627,
+          "end": 332.187
+        },
+        {
+          "text": "budget",
+          "start": 332.347,
+          "end": 332.907
+        }
+      ]
+    },
+    {
+      "start": 332.907,
+      "end": 335.027,
+      "words": [
+        {
+          "text": "skimming",
+          "start": 332.907,
+          "end": 333.467
+        },
+        {
+          "text": "of",
+          "start": 333.467,
+          "end": 333.707
+        },
+        {
+          "text": "2005",
+          "start": 333.707,
+          "end": 334.747
+        },
+        {
+          "text": "and",
+          "start": 334.907,
+          "end": 335.067
+        }
+      ]
+    },
+    {
+      "start": 335.067,
+      "end": 336.827,
+      "words": [
+        {
+          "text": "the",
+          "start": 335.067,
+          "end": 335.227
+        },
+        {
+          "text": "mega",
+          "start": 335.227,
+          "end": 335.627
+        },
+        {
+          "text": "scandals",
+          "start": 335.787,
+          "end": 336.347
+        },
+        {
+          "text": "inside",
+          "start": 336.347,
+          "end": 336.747
+        }
+      ]
+    },
+    {
+      "start": 336.987,
+      "end": 338.947,
+      "words": [
+        {
+          "text": "state",
+          "start": 336.987,
+          "end": 337.387
+        },
+        {
+          "text": "enterprises",
+          "start": 337.387,
+          "end": 338.107
+        },
+        {
+          "text": "today,",
+          "start": 338.267,
+          "end": 338.987
+        }
+      ]
+    },
+    {
+      "start": 338.987,
+      "end": 339.787,
+      "words": [
+        {
+          "text": "what",
+          "start": 338.987,
+          "end": 339.147
+        },
+        {
+          "text": "do",
+          "start": 339.307,
+          "end": 339.467
+        },
+        {
+          "text": "you",
+          "start": 339.467,
+          "end": 339.547
+        },
+        {
+          "text": "think",
+          "start": 339.547,
+          "end": 339.707
+        }
+      ]
+    },
+    {
+      "start": 339.867,
+      "end": 341.667,
+      "words": [
+        {
+          "text": "went",
+          "start": 339.867,
+          "end": 340.187
+        },
+        {
+          "text": "wrong",
+          "start": 340.187,
+          "end": 340.507
+        },
+        {
+          "text": "with",
+          "start": 340.667,
+          "end": 340.827
+        },
+        {
+          "text": "Indonesia's",
+          "start": 340.827,
+          "end": 341.707
+        }
+      ]
+    },
+    {
+      "start": 341.707,
+      "end": 344.267,
+      "words": [
+        {
+          "text": "fight",
+          "start": 341.707,
+          "end": 342.187
+        },
+        {
+          "text": "against",
+          "start": 342.187,
+          "end": 342.667
+        },
+        {
+          "text": "corruption?",
+          "start": 342.667,
+          "end": 344.187
+        }
+      ]
+    }
+  ]
+}

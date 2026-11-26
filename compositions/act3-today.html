@@ -1,0 +1,484 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #17181B;
+      font-family: "Inter", sans-serif;
+    }
+
+    .a3-host-stage {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .a3-host-cam {
+      position: absolute;
+      inset: 0;
+      transform-origin: 50% 34%;
+    }
+
+    .a3-host-video {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+      object-fit: cover;
+    }
+
+    .a3-host-scrim {
+      position: absolute;
+      left: 0;
+      top: 860px;
+      width: 1080px;
+      height: 1060px;
+      background: linear-gradient(180deg, rgba(17, 18, 20, 0) 0%, rgba(17, 18, 20, 0.72) 22%, rgba(17, 18, 20, 0.9) 100%);
+      pointer-events: none;
+    }
+
+    .a3-chest {
+      position: absolute;
+      left: 150px;
+      top: 998px;
+      width: 740px;
+      background: #DDD6C7;
+      border: 3px solid #111214;
+      border-left: 12px solid #B91C1C;
+      padding: 12px 20px;
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.55);
+      z-index: 6;
+    }
+
+    .a3-chest-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #991B1B;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+
+    .a3-chest-title {
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+      line-height: 1.08;
+      margin-top: 2px;
+    }
+
+    /* Full Evidence Desk Plate */
+    .a3-desk {
+      position: absolute;
+      inset: 0;
+      background: #17181B;
+      z-index: 5;
+    }
+
+    .a3-desk-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(244, 241, 234, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(244, 241, 234, 0.05) 1px, transparent 1px);
+      background-size: 64px 64px;
+      pointer-events: none;
+    }
+
+    /* Scale Explosion Plate (10.0s - 45.0s, centered visually for Reels) */
+    .a3-scale-wrap {
+      position: absolute;
+      left: 150px;
+      top: 292px;
+      width: 760px;
+    }
+
+    .a3-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #F5B841;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .a3-head {
+      font-family: "Oswald", sans-serif;
+      font-size: 54px;
+      font-weight: 700;
+      color: #F4F1EA;
+      text-transform: uppercase;
+      line-height: 1.05;
+      margin-bottom: 20px;
+    }
+
+    .a3-chart-stage {
+      background: #1E2025;
+      border: 3px solid #3A3D47;
+      padding: 20px 28px;
+      height: 440px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      position: relative;
+      box-shadow: 0 22px 46px rgba(0, 0, 0, 0.65);
+    }
+
+    .a3-col {
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      height: 100%;
+    }
+
+    .a3-col-val {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 34px;
+      font-weight: 700;
+      color: #F5B841;
+      margin-bottom: 10px;
+      text-align: center;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .a3-col-val-red {
+      color: #FCA5A5;
+      font-size: 38px;
+    }
+
+    .a3-col-bar-2005 {
+      width: 180px;
+      height: 270px;
+      background: #E09F24;
+      transform-origin: 50% 100%;
+    }
+
+    .a3-col-bar-2026 {
+      width: 180px;
+      height: 285px;
+      background: #C81E1E;
+      transform-origin: 50% 100%;
+    }
+
+    .a3-col-label {
+      margin-top: 12px;
+      font-family: "Oswald", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      color: #F4F1EA;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .a3-scale-stamp {
+      margin-top: 18px;
+      background: #B91C1C;
+      color: #FFFFFF;
+      padding: 14px 20px;
+      font-family: "Oswald", sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    /* Split Screen Playbook (45.1s - 67.2s, centered visually for Reels) */
+    .a3-play-wrap {
+      position: absolute;
+      left: 150px;
+      top: 292px;
+      width: 760px;
+    }
+
+    .a3-play-grid {
+      display: flex;
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .a3-play-col {
+      flex: 1;
+      border: 3px solid #111214;
+      box-shadow: 0 18px 36px rgba(0, 0, 0, 0.55);
+    }
+
+    .a3-play-2005 {
+      background: #E5DEC9;
+    }
+
+    .a3-play-2026 {
+      background: #231416;
+      border-color: #C81E1E;
+    }
+
+    .a3-play-hd-05 {
+      background: #111214;
+      color: #F5B841;
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      padding: 14px 16px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .a3-play-hd-26 {
+      background: #B91C1C;
+      color: #FFFFFF;
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      padding: 14px 16px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .a3-play-body {
+      padding: 18px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .a3-play-item-05 {
+      border-left: 6px solid #111214;
+      padding-left: 12px;
+      font-size: 29px;
+      font-weight: 700;
+      color: #111214;
+      line-height: 1.25;
+    }
+
+    .a3-play-item-26 {
+      border-left: 6px solid #E02424;
+      padding-left: 12px;
+      font-size: 29px;
+      font-weight: 700;
+      color: #F4F1EA;
+      line-height: 1.25;
+    }
+
+    /* Split Drawer: Courts Captured (67.3s - 83.8s) */
+    .a3-split-drawer {
+      position: absolute;
+      left: 0;
+      top: 760px;
+      width: 1080px;
+      height: 1160px;
+      background: #17181B;
+      border-top: 6px solid #B91C1C;
+      z-index: 5;
+    }
+
+    .a3-court-card {
+      position: absolute;
+      left: 150px;
+      top: 26px;
+      width: 740px;
+      background: #231416;
+      border: 3px solid #C81E1E;
+      border-left: 12px solid #E02424;
+      padding: 20px 24px;
+      box-shadow: 0 18px 36px rgba(0, 0, 0, 0.6);
+    }
+
+    .a3-court-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #FCA5A5;
+    }
+
+    .a3-court-title {
+      font-family: "Oswald", sans-serif;
+      font-size: 46px;
+      font-weight: 700;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      line-height: 1.06;
+      margin: 4px 0 8px 0;
+    }
+
+    .a3-court-desc {
+      font-size: 28px;
+      font-weight: 600;
+      color: #E5E0D5;
+    }
+  </style>
+
+  <div id="root" data-composition-id="act3-today" data-width="1080" data-height="1920">
+    <!-- Host layer -->
+    <div class="a3-host-stage" data-layout-allow-overflow>
+      <div id="a3-host-cam" class="a3-host-cam">
+        <video
+          id="a3-video"
+          class="clip a3-host-video"
+          data-start="0"
+          data-duration="83.819"
+          data-track-index="0"
+          src="assets/video/act3_today.mp4"
+          muted
+          playsinline
+        ></video>
+      </div>
+      <div class="a3-host-scrim" data-layout-ignore></div>
+    </div>
+
+    <!-- Opening Chest Tag (0.6s - 9.8s) -->
+    <div id="a3-chest-open" class="a3-chest">
+      <div class="a3-chest-kicker">ACT 3 · BEYOND INFLATION</div>
+      <div class="a3-chest-title">HOW CORRUPTION MUTATED</div>
+    </div>
+
+    <!-- Full Desk: Scale Explosion 2005 vs Pertamina Rp 193.7T (10.0s - 45.0s) -->
+    <div id="a3-desk-scale" class="a3-desk">
+      <div class="a3-desk-grid" data-layout-ignore></div>
+      <div class="a3-scale-wrap">
+        <div class="a3-kicker">PROPORTIONAL SCALE COMPARISON</div>
+        <div class="a3-head">40 CASES (2005) VS 1 CASE (TODAY)</div>
+
+        <div class="a3-chart-stage">
+          <div class="a3-col">
+            <div id="a3-val-05" class="a3-col-val">Rp 8.84T</div>
+            <div id="a3-bar-05" class="a3-col-bar-2005"></div>
+            <div class="a3-col-label">2005 · 40 CASES</div>
+          </div>
+
+          <div id="a3-col-26" class="a3-col">
+            <div id="a3-val-26" class="a3-col-val a3-col-val-red">Rp 193.7T</div>
+            <div id="a3-bar-26" class="a3-col-bar-2026"></div>
+            <div class="a3-col-label">PERTAMINA · 1 YR</div>
+          </div>
+        </div>
+
+        <div id="a3-scale-stamp" class="a3-scale-stamp">PERTAMINA (R.S.) · 21.9× ALL OF 2005</div>
+      </div>
+    </div>
+
+    <!-- Full Desk: Split Playbook 2005 vs 2026 (45.1s - 67.2s) -->
+    <div id="a3-desk-play" class="a3-desk">
+      <div class="a3-desk-grid" data-layout-ignore></div>
+      <div class="a3-play-wrap">
+        <div class="a3-kicker">METHODS COMPARISON</div>
+        <div class="a3-head">THE CORRUPTION PLAYBOOK</div>
+
+        <div class="a3-play-grid">
+          <div id="a3-play-05" class="a3-play-col a3-play-2005">
+            <div class="a3-play-hd-05">2005 PLAYBOOK</div>
+            <div class="a3-play-body">
+              <div id="a3-p05-1" class="a3-play-item-05">Procurement mark-ups</div>
+              <div id="a3-p05-2" class="a3-play-item-05">Helicopters & stationery</div>
+              <div id="a3-p05-3" class="a3-play-item-05">Direct local budget cash skimming</div>
+            </div>
+          </div>
+
+          <div id="a3-play-26" class="a3-play-col a3-play-2026">
+            <div class="a3-play-hd-26">2026 PLAYBOOK</div>
+            <div class="a3-play-body">
+              <div id="a3-p26-1" class="a3-play-item-26">Capture entire supply chains</div>
+              <div id="a3-p26-2" class="a3-play-item-26">Manipulate import quotas</div>
+              <div id="a3-p26-3" class="a3-play-item-26">Rig licensing across monopolies</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Split Drawer: Bribery Reached the Courts (67.3s - 83.8s) -->
+    <div id="a3-split-courts" class="a3-split-drawer">
+      <div id="a3-court-card" class="a3-court-card">
+        <div class="a3-court-kicker">JUDICIAL CAPTURE</div>
+        <div class="a3-court-title">BRIBERY REACHED THE COURTS</div>
+        <div class="a3-court-desc">Tens of billions to fix corporate export verdicts</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const val26El = document.getElementById("a3-val-26");
+
+    // Initial states (immediate gsap.set outside timeline)
+    gsap.set("#a3-host-cam", { scale: 1, y: 0 });
+    gsap.set("#a3-chest-open", { opacity: 0, x: -36 });
+    gsap.set("#a3-desk-scale", { opacity: 0, y: 50, visibility: "hidden" });
+    gsap.set("#a3-bar-05", { scaleY: 0 });
+    gsap.set("#a3-col-26", { opacity: 0 });
+    gsap.set("#a3-bar-26", { scaleY: 0 });
+    gsap.set("#a3-scale-stamp", { opacity: 0, y: 18 });
+
+    gsap.set("#a3-desk-play", { opacity: 0, y: 50, visibility: "hidden" });
+    gsap.set("#a3-play-05", { opacity: 0, x: -40 });
+    gsap.set("#a3-play-26", { opacity: 0, x: 40 });
+    gsap.set(["#a3-p05-1", "#a3-p05-2", "#a3-p05-3", "#a3-p26-1", "#a3-p26-2", "#a3-p26-3"], { opacity: 0, y: 14 });
+
+    gsap.set("#a3-split-courts", { opacity: 0, y: 220, visibility: "hidden" });
+    gsap.set("#a3-court-card", { opacity: 0, x: 40 });
+
+    // 0.6s -> 9.8s: Opening chest tag
+    tl.fromTo("#a3-chest-open", { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.4, ease: "expo.out" }, 0.6);
+    tl.fromTo("#a3-chest-open", { opacity: 1, x: 0 }, { opacity: 0, x: 24, duration: 0.28, ease: "power3.in", immediateRender: false }, 9.7);
+
+    // 10.0s -> 45.0s: Proportional Scale Shock
+    tl.set("#a3-desk-scale", { visibility: "visible" }, 9.95);
+    tl.fromTo("#a3-desk-scale", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.42, ease: "expo.out" }, 10.0);
+    // 2005 bar rises tall first (10.5s - 15.5s)
+    tl.fromTo("#a3-bar-05", { scaleY: 0 }, { scaleY: 0.72, duration: 0.9, ease: "power4.out" }, 10.6);
+
+    // 28.2s ("In the fuel import and blending scandal at Pertamina..."): 2005 bar compresses to TRUE 4.56% scale while Pertamina Rp 193.7T surges!
+    tl.fromTo("#a3-bar-05", { scaleY: 0.72 }, { scaleY: 0.048, duration: 1.0, ease: "power3.inOut", immediateRender: false }, 29.0);
+    tl.fromTo("#a3-col-26", { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 29.2);
+    tl.fromTo("#a3-bar-26", { scaleY: 0 }, { scaleY: 1.0, duration: 1.4, ease: "expo.out" }, 34.7);
+
+    const pVal = { v: 8.84 };
+    tl.fromTo(
+      pVal,
+      { v: 8.84 },
+      {
+        v: 193.7,
+        duration: 1.4,
+        ease: "power2.out",
+        onUpdate: () => {
+          val26El.textContent = "Rp " + pVal.v.toFixed(1) + "T";
+        },
+      },
+      34.7
+    );
+    tl.fromTo("#a3-scale-stamp", { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.36, ease: "back.out(1.2)" }, 36.2);
+
+    // 45.0s: Exit Scale -> Enter Split Playbook (2005 vs 2026)
+    tl.fromTo("#a3-desk-scale", { opacity: 1, y: 0 }, { opacity: 0, y: -50, duration: 0.3, ease: "power3.in", immediateRender: false }, 44.85);
+    tl.set("#a3-desk-scale", { visibility: "hidden" }, 45.18);
+
+    tl.set("#a3-desk-play", { visibility: "visible" }, 45.05);
+    tl.fromTo("#a3-desk-play", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.38, ease: "expo.out" }, 45.1);
+    tl.fromTo("#a3-play-05", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.42, ease: "expo.out" }, 46.2);
+    tl.fromTo("#a3-p05-1", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.3, ease: "power4.out" }, 49.0);
+    tl.fromTo("#a3-p05-2", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.3, ease: "power4.out" }, 51.2);
+    tl.fromTo("#a3-p05-3", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.3, ease: "power4.out" }, 54.0);
+
+    // 57.1s ("Today, corrupt networks..."): Right 2026 Playbook column slams in
+    tl.fromTo("#a3-play-26", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.42, ease: "expo.out" }, 57.1);
+    tl.fromTo("#a3-p26-1", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.3, ease: "power4.out" }, 57.5);
+    tl.fromTo("#a3-p26-2", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.3, ease: "power4.out" }, 60.8);
+    tl.fromTo("#a3-p26-3", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.3, ease: "power4.out" }, 63.4);
+
+    // 67.3s ("Bribery has even reached the courts..."): Exit Playbook -> Split-View Host (edge-to-edge scale 1!) + Judicial Capture Card
+    tl.set("#a3-host-cam", { scale: 1, y: -230 }, 67.1);
+    tl.fromTo("#a3-desk-play", { opacity: 1, y: 0 }, { opacity: 0, y: -50, duration: 0.3, ease: "power3.in", immediateRender: false }, 67.15);
+    tl.set("#a3-desk-play", { visibility: "hidden" }, 67.48);
+
+    tl.set("#a3-split-courts", { visibility: "visible" }, 67.3);
+    tl.fromTo("#a3-split-courts", { opacity: 0, y: 200 }, { opacity: 1, y: 0, duration: 0.42, ease: "expo.out" }, 67.35);
+    tl.fromTo("#a3-court-card", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.4, ease: "power4.out" }, 67.9);
+
+    window.__timelines["act3-today"] = tl;
+  </script>
+</template>

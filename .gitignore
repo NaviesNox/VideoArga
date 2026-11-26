@@ -1,0 +1,12 @@
+# Raw & temporary media
+raw/
+temp/
+renders/
+
+# HyperFrames render artifacts (keep .hyperframes/history)
+.hyperframes/artifacts/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.log

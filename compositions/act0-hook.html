@@ -1,0 +1,374 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #17181B;
+      font-family: "Inter", sans-serif;
+    }
+
+    .a0-host-stage {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .a0-host-cam {
+      position: absolute;
+      inset: 0;
+      transform-origin: 50% 35%;
+    }
+
+    .a0-host-video {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+      object-fit: cover;
+    }
+
+    .a0-host-scrim {
+      position: absolute;
+      left: 0;
+      top: 860px;
+      width: 1080px;
+      height: 1060px;
+      background: linear-gradient(180deg, rgba(17, 18, 20, 0) 0%, rgba(17, 18, 20, 0.72) 22%, rgba(17, 18, 20, 0.88) 100%);
+      pointer-events: none;
+    }
+
+    /* Full Evidence Desk Plate */
+    .a0-desk {
+      position: absolute;
+      inset: 0;
+      background: #17181B;
+      z-index: 4;
+    }
+
+    .a0-desk-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(244, 241, 234, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(244, 241, 234, 0.05) 1px, transparent 1px);
+      background-size: 64px 64px;
+      pointer-events: none;
+    }
+
+    /* Safe content container: centered visually for Reels (x=150..910) */
+    .a0-safe-panel {
+      position: absolute;
+      left: 150px;
+      top: 296px;
+      width: 760px;
+      z-index: 5;
+    }
+
+    .a0-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: #F5B841;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .a0-odometer-box {
+      background: #0E0F12;
+      border: 3px solid #3B3E47;
+      padding: 28px 26px;
+      box-shadow: 0 20px 44px rgba(0, 0, 0, 0.65);
+    }
+
+    .a0-odo-label {
+      font-family: "Oswald", sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #D1CEC7;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .a0-odo-num {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 46px;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      color: #F4F1EA;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      white-space: nowrap;
+    }
+
+    .a0-odo-sub {
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 2px solid #2A2C33;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .a0-odo-trillion {
+      font-family: "Oswald", sans-serif;
+      font-size: 54px;
+      font-weight: 700;
+      color: #F5B841;
+      letter-spacing: -0.01em;
+    }
+
+    .a0-stamp {
+      display: inline-block;
+      border: 4px solid #E02424;
+      background: #B91C1C;
+      color: #FFFFFF;
+      font-family: "Oswald", sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      padding: 8px 18px;
+      text-transform: uppercase;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Second counter: Today Rp 193T */
+    .a0-today-box {
+      margin-top: 26px;
+      background: #221214;
+      border: 3px solid #C81E1E;
+      padding: 26px 26px;
+      box-shadow: 0 22px 48px rgba(0, 0, 0, 0.7);
+    }
+
+    .a0-today-kicker {
+      font-family: "Oswald", sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: #FCA5A5;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .a0-today-num {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 44px;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      color: #FFFFFF;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      white-space: nowrap;
+    }
+
+    .a0-today-badge {
+      margin-top: 16px;
+      background: #B91C1C;
+      color: #FFFFFF;
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      padding: 10px 20px;
+      display: inline-block;
+      text-transform: uppercase;
+    }
+
+    /* Host lower-chest archive tag (below chin, above captions at y=1126) */
+    .a0-chest-card {
+      position: absolute;
+      left: 150px;
+      top: 998px;
+      width: 740px;
+      background: #DDD6C7;
+      border: 3px solid #111214;
+      border-left: 12px solid #B91C1C;
+      padding: 12px 20px;
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.55);
+      z-index: 6;
+    }
+
+    .a0-chest-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #991B1B;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+
+    .a0-chest-title {
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+      line-height: 1.08;
+      margin-top: 2px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="act0-hook" data-width="1080" data-height="1920">
+    <!-- Host talking-head layer -->
+    <div class="a0-host-stage" data-layout-allow-overflow>
+      <div id="a0-host-cam" class="a0-host-cam">
+        <video
+          id="a0-video"
+          class="clip a0-host-video"
+          data-start="0"
+          data-duration="34.667"
+          data-track-index="0"
+          src="assets/video/act0_hook.mp4"
+          muted
+          playsinline
+        ></video>
+      </div>
+      <div id="a0-host-scrim" class="a0-host-scrim" data-layout-ignore></div>
+    </div>
+
+    <!-- Evidence Desk Plate (Frame 0 visible immediately — never black!) -->
+    <div id="a0-desk" class="a0-desk">
+      <div class="a0-desk-grid" data-layout-ignore></div>
+      <div class="a0-safe-panel">
+        <div id="a0-kicker" class="a0-kicker">INDONESIA · ARCHIVAL AUDIT</div>
+
+        <div id="a0-odo-box" class="a0-odometer-box">
+          <div class="a0-odo-label">2005 CORRUPTION LOSSES (40 CASES)</div>
+          <div id="a0-odo-num" class="a0-odo-num">Rp 1,420,910,384,210</div>
+          <div class="a0-odo-sub">
+            <div id="a0-odo-trillion" class="a0-odo-trillion">Rp 8.84 TRILLION</div>
+            <div id="a0-stamp" class="a0-stamp">2005 · 40 CASES</div>
+          </div>
+        </div>
+
+        <div id="a0-today-box" class="a0-today-box">
+          <div class="a0-today-kicker">SINGLE SCANDAL TODAY</div>
+          <div id="a0-today-num" class="a0-today-num">Rp 8,838,731,700,646</div>
+          <div id="a0-today-badge" class="a0-today-badge">20× IN ONE CASE</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chest Evidence Card 1 (17.5s - 25.4s) -->
+    <div id="a0-chest-1" class="a0-chest-card">
+      <div class="a0-chest-kicker">FORENSIC COMPARISON</div>
+      <div class="a0-chest-title">40 VERDICTS (2005) VS TODAY</div>
+    </div>
+
+    <!-- Chest Evidence Card 2 (26.2s - 34.4s) -->
+    <div id="a0-chest-2" class="a0-chest-card">
+      <div class="a0-chest-kicker">2005 → 2026</div>
+      <div class="a0-chest-title">20 YEARS OF MUTATION</div>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    const fmtRp = (n) => "Rp " + Math.round(n).toLocaleString("en-US");
+    const odoEl = document.getElementById("a0-odo-num");
+    const todayEl = document.getElementById("a0-today-num");
+
+    // Initial states (immediate gsap.set outside timeline so Frame 0 is exact)
+    gsap.set("#a0-desk", { opacity: 1, y: 0 });
+    gsap.set("#a0-odo-trillion", { opacity: 0 });
+    gsap.set("#a0-stamp", { opacity: 0, scale: 1.85, rotation: -6 });
+    gsap.set("#a0-today-box", { opacity: 0, y: 60 });
+    gsap.set("#a0-today-badge", { opacity: 0, scale: 1.4 });
+    gsap.set("#a0-chest-1", { opacity: 0, x: -40 });
+    gsap.set("#a0-chest-2", { opacity: 0, x: -40 });
+    gsap.set("#a0-host-cam", { scale: 1, y: 0 });
+
+    // 0.0s -> 3.0s: Mechanical slot-machine odometer spin, locking onto exact Rp 8,838,731,700,646
+    const odoState = { p: 0 };
+    tl.fromTo(
+      odoState,
+      { p: 0 },
+      {
+        p: 1,
+        duration: 3.0,
+        ease: "power3.out",
+        onUpdate: () => {
+          const target = 8838731700646;
+          if (odoState.p >= 0.995) {
+            odoEl.textContent = fmtRp(target);
+          } else {
+            // Deterministic seeded spin digits converging from left to right
+            const base = Math.floor(target * (0.18 + 0.82 * odoState.p));
+            const noise = Math.floor(Math.sin(odoState.p * 197.3) * 412398712345 * (1 - odoState.p));
+            odoEl.textContent = fmtRp(Math.max(1000000000000, Math.abs(base + noise)));
+          }
+        },
+      },
+      0
+    );
+
+    // 3.0s: Lock thud pulse on odometer + reveal Rp 8.84 TRILLION
+    tl.fromTo("#a0-odo-box", { scale: 1.03 }, { scale: 1, duration: 0.22, ease: "power4.out" }, 3.0);
+    tl.fromTo("#a0-odo-trillion", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.35, ease: "power4.out" }, 3.05);
+
+    // 5.6s ("across 40 major corruption cases"): Crimson stamp slams down
+    tl.fromTo(
+      "#a0-stamp",
+      { opacity: 0, scale: 1.85, rotation: -6 },
+      { opacity: 1, scale: 1, rotation: -3, duration: 0.24, ease: "back.out(1.25)" },
+      5.6
+    );
+
+    // 11.8s ("Today a single scandal..."): Second counter tears open underneath climbing past Rp 193T
+    tl.fromTo(
+      "#a0-today-box",
+      { opacity: 0, y: 55 },
+      { opacity: 1, y: 0, duration: 0.4, ease: "expo.out" },
+      11.8
+    );
+
+    const todayState = { val: 8838731700646 };
+    tl.fromTo(
+      todayState,
+      { val: 8838731700646 },
+      {
+        val: 193700000000000,
+        duration: 2.3,
+        ease: "power2.out",
+        onUpdate: () => {
+          todayEl.textContent = fmtRp(todayState.val);
+        },
+      },
+      12.1
+    );
+
+    // 14.35s ("20 times that amount"): Crimson badge slams in
+    tl.fromTo(
+      "#a0-today-badge",
+      { opacity: 0, scale: 1.35 },
+      { opacity: 1, scale: 1, duration: 0.24, ease: "back.out(1.2)" },
+      13.6
+    );
+
+    // 16.9s ("We went through all 40..."): Wipe Evidence Desk up to reveal Host speaking full-frame
+    tl.fromTo(
+      "#a0-desk",
+      { opacity: 1, y: 0 },
+      { opacity: 0, y: -90, duration: 0.36, ease: "power3.in", immediateRender: false },
+      16.9
+    );
+    tl.set("#a0-desk", { visibility: "hidden" }, 17.3);
+
+    // 17.6s -> 25.2s: Chest evidence card 1
+    tl.fromTo("#a0-chest-1", { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.38, ease: "expo.out" }, 17.6);
+    tl.fromTo("#a0-chest-1", { opacity: 1, x: 0 }, { opacity: 0, x: 24, duration: 0.28, ease: "power3.in", immediateRender: false }, 25.0);
+
+    // 25.6s: Subtle punch-in on host (pan slightly UP so chin stays completely clear) + Chest card 2
+    tl.fromTo("#a0-host-cam", { scale: 1, y: 0 }, { scale: 1.06, y: -40, duration: 0.55, ease: "power2.inOut" }, 25.55);
+    tl.fromTo("#a0-chest-2", { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.38, ease: "expo.out" }, 26.4);
+    tl.fromTo("#a0-chest-2", { opacity: 1, x: 0 }, { opacity: 0, x: 0, duration: 0.25, ease: "power2.in", immediateRender: false }, 34.25);
+
+    window.__timelines["act0-hook"] = tl;
+  </script>
+</template>

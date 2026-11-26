@@ -1,0 +1,732 @@
+{
+  "clip": "clip2",
+  "act": "act3_today",
+  "raw_file": "WhatsApp Video 2026-11-26 at 17.10.12.mp4",
+  "words": [
+    {
+      "text": "The",
+      "start": 0.32,
+      "end": 0.56
+    },
+    {
+      "text": "difference",
+      "start": 0.56,
+      "end": 1.04
+    },
+    {
+      "text": "between",
+      "start": 1.04,
+      "end": 1.52
+    },
+    {
+      "text": "2005",
+      "start": 1.52,
+      "end": 2.24
+    },
+    {
+      "text": "and",
+      "start": 2.4,
+      "end": 2.56
+    },
+    {
+      "text": "the",
+      "start": 2.56,
+      "end": 2.72
+    },
+    {
+      "text": "scandals",
+      "start": 2.72,
+      "end": 3.28
+    },
+    {
+      "text": "hitting",
+      "start": 3.28,
+      "end": 3.68
+    },
+    {
+      "text": "Indonesia",
+      "start": 3.68,
+      "end": 4.32
+    },
+    {
+      "text": "today",
+      "start": 4.32,
+      "end": 4.64
+    },
+    {
+      "text": "goes",
+      "start": 4.72,
+      "end": 5.12
+    },
+    {
+      "text": "well",
+      "start": 5.12,
+      "end": 5.44
+    },
+    {
+      "text": "beyond",
+      "start": 5.44,
+      "end": 6
+    },
+    {
+      "text": "inflation.",
+      "start": 6,
+      "end": 6.96
+    },
+    {
+      "text": "For",
+      "start": 6.96,
+      "end": 7.28
+    },
+    {
+      "text": "one,",
+      "start": 7.28,
+      "end": 7.6
+    },
+    {
+      "text": "the",
+      "start": 7.6,
+      "end": 7.76
+    },
+    {
+      "text": "scale",
+      "start": 7.76,
+      "end": 8.24
+    },
+    {
+      "text": "has",
+      "start": 8.24,
+      "end": 8.4
+    },
+    {
+      "text": "exploded,",
+      "start": 8.56,
+      "end": 9.52
+    },
+    {
+      "text": "all",
+      "start": 9.52,
+      "end": 9.68
+    },
+    {
+      "text": "40",
+      "start": 9.84,
+      "end": 10.32
+    },
+    {
+      "text": "major",
+      "start": 10.32,
+      "end": 10.72
+    },
+    {
+      "text": "cases",
+      "start": 10.72,
+      "end": 11.12
+    },
+    {
+      "text": "in",
+      "start": 11.12,
+      "end": 11.28
+    },
+    {
+      "text": "2005",
+      "start": 11.28,
+      "end": 12
+    },
+    {
+      "text": "combined",
+      "start": 12.24,
+      "end": 12.96
+    },
+    {
+      "text": "for",
+      "start": 12.96,
+      "end": 13.28
+    },
+    {
+      "text": "8.84",
+      "start": 13.28,
+      "end": 14.48
+    },
+    {
+      "text": "trillion",
+      "start": 14.64,
+      "end": 15.12
+    },
+    {
+      "text": "rupee.",
+      "start": 15.12,
+      "end": 16.08
+    },
+    {
+      "text": "Whereas",
+      "start": 16.08,
+      "end": 16.64
+    },
+    {
+      "text": "today,",
+      "start": 16.8,
+      "end": 17.6
+    },
+    {
+      "text": "a",
+      "start": 17.6,
+      "end": 17.84
+    },
+    {
+      "text": "single",
+      "start": 17.84,
+      "end": 18.4
+    },
+    {
+      "text": "case",
+      "start": 18.4,
+      "end": 18.96
+    },
+    {
+      "text": "inside",
+      "start": 18.96,
+      "end": 19.52
+    },
+    {
+      "text": "a",
+      "start": 19.52,
+      "end": 19.76
+    },
+    {
+      "text": "state-owned",
+      "start": 19.76,
+      "end": 20.8
+    },
+    {
+      "text": "enterprise",
+      "start": 20.96,
+      "end": 21.68
+    },
+    {
+      "text": "or",
+      "start": 21.84,
+      "end": 22.08
+    },
+    {
+      "text": "natural",
+      "start": 22.08,
+      "end": 22.64
+    },
+    {
+      "text": "resource",
+      "start": 22.64,
+      "end": 23.12
+    },
+    {
+      "text": "sector",
+      "start": 23.28,
+      "end": 23.76
+    },
+    {
+      "text": "routinely",
+      "start": 24.16,
+      "end": 24.96
+    },
+    {
+      "text": "hit",
+      "start": 24.96,
+      "end": 25.12
+    },
+    {
+      "text": "stands",
+      "start": 25.44,
+      "end": 25.92
+    },
+    {
+      "text": "for",
+      "start": 25.92,
+      "end": 26.08
+    },
+    {
+      "text": "hundreds",
+      "start": 26.24,
+      "end": 26.72
+    },
+    {
+      "text": "of",
+      "start": 26.72,
+      "end": 26.88
+    },
+    {
+      "text": "trillions.",
+      "start": 26.88,
+      "end": 28.08
+    },
+    {
+      "text": "In",
+      "start": 28.08,
+      "end": 28.32
+    },
+    {
+      "text": "the",
+      "start": 28.32,
+      "end": 28.56
+    },
+    {
+      "text": "fuel",
+      "start": 28.56,
+      "end": 28.96
+    },
+    {
+      "text": "import",
+      "start": 29.12,
+      "end": 29.28
+    },
+    {
+      "text": "and",
+      "start": 29.52,
+      "end": 29.68
+    },
+    {
+      "text": "blending",
+      "start": 29.68,
+      "end": 30.24
+    },
+    {
+      "text": "scandal",
+      "start": 30.24,
+      "end": 30.56
+    },
+    {
+      "text": "at",
+      "start": 30.64,
+      "end": 30.8
+    },
+    {
+      "text": "state",
+      "start": 30.88,
+      "end": 31.2
+    },
+    {
+      "text": "energy",
+      "start": 31.2,
+      "end": 31.44
+    },
+    {
+      "text": "informed",
+      "start": 31.6,
+      "end": 32.08
+    },
+    {
+      "text": "Partamina",
+      "start": 32.16,
+      "end": 32.8
+    },
+    {
+      "text": "involving",
+      "start": 33.2,
+      "end": 33.84
+    },
+    {
+      "text": "executive",
+      "start": 33.84,
+      "end": 34.56
+    },
+    {
+      "text": "like",
+      "start": 34.72,
+      "end": 34.96
+    },
+    {
+      "text": "RS,",
+      "start": 35.12,
+      "end": 36.32
+    },
+    {
+      "text": "investigators",
+      "start": 36.32,
+      "end": 37.52
+    },
+    {
+      "text": "calculated",
+      "start": 37.68,
+      "end": 38.56
+    },
+    {
+      "text": "annual",
+      "start": 38.56,
+      "end": 39.04
+    },
+    {
+      "text": "state",
+      "start": 39.04,
+      "end": 39.36
+    },
+    {
+      "text": "losses",
+      "start": 39.36,
+      "end": 40.16
+    },
+    {
+      "text": "at",
+      "start": 40.16,
+      "end": 40.48
+    },
+    {
+      "text": "193.7",
+      "start": 40.48,
+      "end": 42.72
+    },
+    {
+      "text": "trillion",
+      "start": 42.88,
+      "end": 43.52
+    },
+    {
+      "text": "rupee.",
+      "start": 43.52,
+      "end": 45.12
+    },
+    {
+      "text": "The",
+      "start": 45.12,
+      "end": 45.44
+    },
+    {
+      "text": "method",
+      "start": 45.44,
+      "end": 45.92
+    },
+    {
+      "text": "have",
+      "start": 46.16,
+      "end": 46.48
+    },
+    {
+      "text": "also",
+      "start": 46.48,
+      "end": 46.8
+    },
+    {
+      "text": "changed",
+      "start": 46.8,
+      "end": 47.36
+    },
+    {
+      "text": "in",
+      "start": 47.52,
+      "end": 47.68
+    },
+    {
+      "text": "2005,",
+      "start": 47.68,
+      "end": 48.72
+    },
+    {
+      "text": "officials",
+      "start": 48.72,
+      "end": 49.36
+    },
+    {
+      "text": "relied",
+      "start": 49.36,
+      "end": 49.92
+    },
+    {
+      "text": "on",
+      "start": 49.92,
+      "end": 50.16
+    },
+    {
+      "text": "procurement",
+      "start": 50.16,
+      "end": 50.72
+    },
+    {
+      "text": "markups",
+      "start": 50.72,
+      "end": 51.52
+    },
+    {
+      "text": "on",
+      "start": 51.68,
+      "end": 51.92
+    },
+    {
+      "text": "helicopters",
+      "start": 51.92,
+      "end": 52.72
+    },
+    {
+      "text": "or",
+      "start": 52.8,
+      "end": 52.96
+    },
+    {
+      "text": "stationary",
+      "start": 52.96,
+      "end": 53.68
+    },
+    {
+      "text": "and",
+      "start": 53.76,
+      "end": 53.92
+    },
+    {
+      "text": "direct",
+      "start": 53.92,
+      "end": 54.4
+    },
+    {
+      "text": "cash",
+      "start": 54.4,
+      "end": 54.64
+    },
+    {
+      "text": "scheming",
+      "start": 54.8,
+      "end": 55.28
+    },
+    {
+      "text": "from",
+      "start": 55.28,
+      "end": 55.52
+    },
+    {
+      "text": "local",
+      "start": 55.52,
+      "end": 55.84
+    },
+    {
+      "text": "budgets.",
+      "start": 55.84,
+      "end": 57.04
+    },
+    {
+      "text": "Today,",
+      "start": 57.15,
+      "end": 57.71
+    },
+    {
+      "text": "corrupt",
+      "start": 57.71,
+      "end": 58.27
+    },
+    {
+      "text": "networks",
+      "start": 58.27,
+      "end": 58.91
+    },
+    {
+      "text": "capture",
+      "start": 58.91,
+      "end": 59.55
+    },
+    {
+      "text": "entire",
+      "start": 59.55,
+      "end": 60.11
+    },
+    {
+      "text": "supply",
+      "start": 60.11,
+      "end": 60.59
+    },
+    {
+      "text": "chains,",
+      "start": 60.59,
+      "end": 61.23
+    },
+    {
+      "text": "manipulate",
+      "start": 61.23,
+      "end": 62.03
+    },
+    {
+      "text": "import",
+      "start": 62.03,
+      "end": 62.35
+    },
+    {
+      "text": "quotas",
+      "start": 62.59,
+      "end": 63.15
+    },
+    {
+      "text": "and",
+      "start": 63.23,
+      "end": 63.39
+    },
+    {
+      "text": "rake",
+      "start": 63.55,
+      "end": 63.87
+    },
+    {
+      "text": "by",
+      "start": 64.03,
+      "end": 64.11
+    },
+    {
+      "text": "sensing",
+      "start": 64.27,
+      "end": 64.83
+    },
+    {
+      "text": "across",
+      "start": 64.83,
+      "end": 65.15
+    },
+    {
+      "text": "state",
+      "start": 65.23,
+      "end": 65.55
+    },
+    {
+      "text": "monopolies.",
+      "start": 65.71,
+      "end": 67.31
+    },
+    {
+      "text": "Bribery",
+      "start": 67.31,
+      "end": 68.27
+    },
+    {
+      "text": "has",
+      "start": 68.27,
+      "end": 68.59
+    },
+    {
+      "text": "even",
+      "start": 68.59,
+      "end": 68.91
+    },
+    {
+      "text": "reached",
+      "start": 68.91,
+      "end": 69.47
+    },
+    {
+      "text": "the",
+      "start": 69.47,
+      "end": 69.63
+    },
+    {
+      "text": "courts",
+      "start": 69.63,
+      "end": 70.27
+    },
+    {
+      "text": "themselves,",
+      "start": 70.27,
+      "end": 71.31
+    },
+    {
+      "text": "with",
+      "start": 71.31,
+      "end": 71.63
+    },
+    {
+      "text": "recent",
+      "start": 71.63,
+      "end": 72.19
+    },
+    {
+      "text": "cases",
+      "start": 72.19,
+      "end": 72.83
+    },
+    {
+      "text": "catching",
+      "start": 72.83,
+      "end": 73.39
+    },
+    {
+      "text": "judges",
+      "start": 73.39,
+      "end": 73.87
+    },
+    {
+      "text": "and",
+      "start": 73.87,
+      "end": 74.11
+    },
+    {
+      "text": "court",
+      "start": 74.11,
+      "end": 74.51
+    },
+    {
+      "text": "officials",
+      "start": 74.51,
+      "end": 75.23
+    },
+    {
+      "text": "taking",
+      "start": 75.47,
+      "end": 76.03
+    },
+    {
+      "text": "tens",
+      "start": 76.03,
+      "end": 76.51
+    },
+    {
+      "text": "of",
+      "start": 76.51,
+      "end": 76.75
+    },
+    {
+      "text": "billions",
+      "start": 76.75,
+      "end": 77.15
+    },
+    {
+      "text": "rupiah",
+      "start": 77.31,
+      "end": 78.19
+    },
+    {
+      "text": "just",
+      "start": 78.35,
+      "end": 78.67
+    },
+    {
+      "text": "to",
+      "start": 78.67,
+      "end": 78.91
+    },
+    {
+      "text": "fix",
+      "start": 78.91,
+      "end": 79.31
+    },
+    {
+      "text": "vertex",
+      "start": 79.31,
+      "end": 79.79
+    },
+    {
+      "text": "in",
+      "start": 80.03,
+      "end": 80.19
+    },
+    {
+      "text": "major",
+      "start": 80.19,
+      "end": 80.51
+    },
+    {
+      "text": "corporate",
+      "start": 80.67,
+      "end": 81.31
+    },
+    {
+      "text": "export",
+      "start": 81.31,
+      "end": 81.95
+    },
+    {
+      "text": "cases.",
+      "start": 82.11,
+      "end": 83.39
+    }
+  ]
+}

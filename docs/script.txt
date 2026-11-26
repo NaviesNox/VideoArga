@@ -1,0 +1,39 @@
+5-minute Reels script: "2005 vs. today: how Indonesian corruption mutated"
+
+    Format: Vertical video (9:16 / 1080x1920), 5:00 duration (~145 WPM pacing)
+
+    Tone: Investigative, sharp, and critical, with pacing shifts every 15 to 20 seconds to hold viewer retention.
+
+[00:00 to 00:35] Hook: From billions to hundreds of trillions
+(Visual: Black screen. The number Rp 8,838,731,700,646 spins like a slot machine, then stops with a heavy thud. Underneath it, a second counter climbs past Rp 193,000,000,000,000.)
+VO / Host:
+"In 2005, Indonesia lost Rp 8.84 trillion across 40 major corruption cases, a figure that shocked the country at the time. Today, a single scandal can wipe out twenty times that amount. I went through all 40 major court verdicts and cases from 2005 and compared them to the scandals unfolding this year, and the comparison shows how much bigger and deeper the theft has grown over the last two decades."
+
+[00:35 to 01:45] Act 1: 2005, when billions made national headlines
+(Visual: 2005 newspaper clippings and an anonymized profile card marked 'A.P.' with a red stamp: 'FIRST TIPIKOR VERDICT'.)
+VO / Host:
+"2005 was the first year sitting regional leaders, ministers, and election officials landed in the new Anti-Corruption Court. The case that kicked it off involved A.P., then Governor of Nanggroe Aceh Darussalam, who was convicted of marking up the purchase of an MI-2 helicopter by Rp 13.6 billion. In April 2005, judges sentenced him to 10 years in prison.
+Around the same time, collective budget skimming inside local parliaments was breaking out across the country. In Padang City, 27 former DPRD members got four-year sentences for misusing Rp 10.4 billion from the regional budget. In West Sumatra Province, 43 DPRD members were implicated in a Rp 6.4 billion budget case. From Semarang, Cirebon, and Solo to Manado and Donggala, local council members were carving up regional budgets together. Next to today's numbers, stealing a few billion rupiah almost looks small."
+
+[01:45 to 03:00] Act 2: Inside the 2005 numbers: local budgets vs. bank looting
+(Visual: Animated vertical Charts 1 and 2 appear in the center of the screen.)
+VO / Host:
+"Plot all 40 cases from 2005 on a chart, and a wide gap shows up between where corruption happened most often and where the big money went.
+By case count, state and regional budgets, the APBN and APBD, topped the list with 15 cases, or 37.5% of the total. Yet those 15 regional cases added up to Rp 206.37 billion, just 2.3% of total state losses that year.
+The remaining 80.7% came from banking and finance, where just seven cases drained Rp 7.13 trillion. P.S. misused Rp 2.02 trillion in BLBI debit balance facilities. Bank Mandiri issued Rp 1.89 trillion in bad loans to PT Kiani Kertas. Fictitious letters of credit drained Rp 1.7 trillion from Bank BNI Kebayoran Baru, and another Rp 1.3 trillion vanished from Bank Dagang Bali. Outside banking, former Minister of Religious Affairs S.A. embezzled Rp 719 billion from the Hajj and Ummah Endowment Funds. Even the 2004 election got dragged in, with four separate KPU cases totaling Rp 15.53 billion involving R.K. over ballot paper, N.S. over poll worker insurance, D.D. over election ink, and M.W.K., who was caught bribing a state auditor with Rp 300 million."
+
+[03:00 to 04:05] Act 3: How corruption changed by today
+(Visual: Split screen comparing '2005 Playbook' on the left with '2026 Playbook' on the right.)
+VO / Host:
+"The difference between 2005 and the scandals hitting Indonesia today goes well beyond inflation.
+For one, the scale has exploded. All 40 major cases in 2005 combined for Rp 8.84 trillion, whereas today a single case inside a state-owned enterprise or natural resource sector routinely hits tens or hundreds of trillions. In the fuel import and blending scandal at state energy firm Pertamina involving executives like R.S., investigators calculated annual state losses at Rp 193.7 trillion.
+The methods have also changed. In 2005, officials relied on procurement mark-ups on helicopters or stationery and direct cash skimming from local budgets. Today, corrupt networks capture entire supply chains, manipulate import quotas, and rig licensing across state monopolies. Bribery has even reached the courts themselves, with recent cases catching judges and court officials taking tens of billions of rupiah to fix verdicts in major corporate export cases."
+
+[04:05 to 05:00] Outro: Deeper networks, zero deterrence
+(Visual: A timeline from 2005 to 2026 showing the loss figures climbing vertically off the screen.)
+VO / Host:
+"Having anti-corruption laws and special courts on paper never stopped the theft. Over the past 21 years, corrupt actors adapted, moving from skimming regional budgets in the billions to capturing state enterprises, energy imports, and judicial verdicts in the trillions.
+The loopholes in public oversight stayed open, and the penalties failed to scare anyone off. Between the brazen budget skimming of 2005 and the mega-scandals inside state enterprises today, what went wrong with Indonesia's fight against corruption? Drop your thoughts in the comments."
+
+
+//ADD relevant INFOGRAPHICS 

@@ -1,0 +1,53 @@
+{
+  "total_duration": 345.168,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "acts": [
+    {
+      "act": "act0_hook",
+      "source": "raw/video/WhatsApp Video 2026-11-26 at 17.10.17.mp4",
+      "video": "assets/video/act0_hook.mp4",
+      "audio": "assets/audio/voice/act0_hook.wav",
+      "start": 0.0,
+      "duration": 34.667,
+      "end": 34.667
+    },
+    {
+      "act": "act1_2005",
+      "source": "raw/video/WhatsApp Video 2026-11-26 at 17.10.16.mp4",
+      "video": "assets/video/act1_2005.mp4",
+      "audio": "assets/audio/voice/act1_2005.wav",
+      "start": 34.667,
+      "duration": 68.133,
+      "end": 102.8
+    },
+    {
+      "act": "act2_numbers",
+      "source": "raw/video/WhatsApp Video 2026-11-26 at 17.10.14.mp4",
+      "video": "assets/video/act2_numbers.mp4",
+      "audio": "assets/audio/voice/act2_numbers.wav",
+      "start": 102.8,
+      "duration": 114.048,
+      "end": 216.848
+    },
+    {
+      "act": "act3_today",
+      "source": "raw/video/WhatsApp Video 2026-11-26 at 17.10.12.mp4",
+      "video": "assets/video/act3_today.mp4",
+      "audio": "assets/audio/voice/act3_today.wav",
+      "start": 216.848,
+      "duration": 83.819,
+      "end": 300.667
+    },
+    {
+      "act": "act4_outro",
+      "source": "raw/video/WhatsApp Video 2026-11-26 at 17.10.10.mp4",
+      "video": "assets/video/act4_outro.mp4",
+      "audio": "assets/audio/voice/act4_outro.wav",
+      "start": 300.667,
+      "duration": 44.501,
+      "end": 345.168
+    }
+  ]
+}

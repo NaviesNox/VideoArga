@@ -1,0 +1,511 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #17181B;
+      font-family: "Inter", sans-serif;
+    }
+
+    .a1-host-stage {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .a1-host-cam {
+      position: absolute;
+      inset: 0;
+      transform-origin: 50% 34%;
+    }
+
+    .a1-host-video {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+      object-fit: cover;
+    }
+
+    .a1-host-scrim {
+      position: absolute;
+      left: 0;
+      top: 860px;
+      width: 1080px;
+      height: 1060px;
+      background: linear-gradient(180deg, rgba(17, 18, 20, 0) 0%, rgba(17, 18, 20, 0.72) 22%, rgba(17, 18, 20, 0.9) 100%);
+      pointer-events: none;
+    }
+
+    /* Chest card on Host full-frame (below chin, clear of captions at 1126) */
+    .a1-chest {
+      position: absolute;
+      left: 150px;
+      top: 998px;
+      width: 740px;
+      background: #DDD6C7;
+      border: 3px solid #111214;
+      border-left: 12px solid #B91C1C;
+      padding: 12px 20px;
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.55);
+      z-index: 6;
+    }
+
+    .a1-chest-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #991B1B;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+
+    .a1-chest-title {
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+      line-height: 1.08;
+      margin-top: 2px;
+    }
+
+    /* Full Evidence Desk Plate (Act 1 Dossier & Clippings) */
+    .a1-desk {
+      position: absolute;
+      inset: 0;
+      background: #17181B;
+      z-index: 5;
+    }
+
+    .a1-desk-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(244, 241, 234, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(244, 241, 234, 0.05) 1px, transparent 1px);
+      background-size: 64px 64px;
+      pointer-events: none;
+    }
+
+    /* 2005 Newspaper Clipping + A.P. Dossier (visually centered for Reels) */
+    .a1-paper-wrap {
+      position: absolute;
+      left: 150px;
+      top: 292px;
+      width: 760px;
+    }
+
+    .a1-news-clip {
+      background: #D8D0C0;
+      border: 3px solid #111214;
+      padding: 20px 24px;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.5);
+      margin-bottom: 18px;
+    }
+
+    .a1-news-mast {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 3px solid #111214;
+      padding-bottom: 8px;
+      margin-bottom: 10px;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #111214;
+    }
+
+    .a1-news-head {
+      font-family: "Oswald", sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+      color: #111214;
+      line-height: 1.08;
+      text-transform: uppercase;
+    }
+
+    .a1-dossier {
+      position: relative;
+      background: #E5DEC9;
+      border: 3px solid #111214;
+      padding: 24px 26px;
+      box-shadow: 0 22px 44px rgba(0, 0, 0, 0.65);
+    }
+
+    .a1-dos-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 2px solid #111214;
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
+
+    .a1-dos-id {
+      font-family: "Oswald", sans-serif;
+      font-size: 62px;
+      font-weight: 700;
+      color: #111214;
+      line-height: 1;
+    }
+
+    .a1-dos-tag {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #991B1B;
+    }
+
+    .a1-dos-role {
+      font-size: 30px;
+      font-weight: 700;
+      color: #111214;
+      margin-bottom: 14px;
+    }
+
+    .a1-dos-fig-row {
+      background: #17181B;
+      color: #F4F1EA;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .a1-dos-fig-label {
+      font-size: 28px;
+      font-weight: 600;
+      color: #D8D0C0;
+    }
+
+    .a1-dos-fig-val {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 38px;
+      font-weight: 700;
+      color: #F5B841;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .a1-dos-sentence {
+      background: #B91C1C;
+      color: #FFFFFF;
+      font-family: "Oswald", sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      padding: 12px 20px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .a1-red-stamp {
+      position: absolute;
+      right: 18px;
+      top: 18px;
+      border: 5px solid #B91C1C;
+      background: #B91C1C;
+      color: #FFFFFF;
+      font-family: "Oswald", sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 8px 16px;
+      text-transform: uppercase;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    /* Split-View Bottom Drawer (Host visible at top y=0..760, Drawer at y=760..1920, safe content y=788..1074, x=120..760) */
+    .a1-split-drawer {
+      position: absolute;
+      left: 0;
+      top: 760px;
+      width: 1080px;
+      height: 1160px;
+      background: #17181B;
+      border-top: 6px solid #B91C1C;
+      z-index: 5;
+    }
+
+    .a1-dprd-card {
+      position: absolute;
+      left: 150px;
+      top: 26px;
+      width: 740px;
+      background: #E5DEC9;
+      border: 3px solid #111214;
+      padding: 20px 24px;
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.55);
+    }
+
+    .a1-dprd-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #991B1B;
+      text-transform: uppercase;
+    }
+
+    .a1-dprd-city {
+      font-family: "Oswald", sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+      line-height: 1.05;
+      margin: 4px 0 10px 0;
+    }
+
+    .a1-dprd-stats {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 30px;
+      font-weight: 700;
+      color: #111214;
+      line-height: 1.3;
+    }
+
+    /* 5-City Cascade Board (Full Desk, 53.2s - 61.6s) */
+    .a1-cities-wrap {
+      position: absolute;
+      left: 150px;
+      top: 296px;
+      width: 760px;
+    }
+
+    .a1-cities-head {
+      font-family: "Oswald", sans-serif;
+      font-size: 54px;
+      font-weight: 700;
+      color: #F4F1EA;
+      text-transform: uppercase;
+      line-height: 1.08;
+      margin-bottom: 10px;
+    }
+
+    .a1-cities-sub {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #F5B841;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+    }
+
+    .a1-city-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .a1-city-row {
+      background: #E5DEC9;
+      border: 3px solid #111214;
+      border-left: 12px solid #B91C1C;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .a1-city-name {
+      font-family: "Oswald", sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+      color: #111214;
+      text-transform: uppercase;
+    }
+
+    .a1-city-tag {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #991B1B;
+    }
+  </style>
+
+  <div id="root" data-composition-id="act1-2005" data-width="1080" data-height="1920">
+    <!-- Host layer -->
+    <div class="a1-host-stage" data-layout-allow-overflow>
+      <div id="a1-host-cam" class="a1-host-cam">
+        <video
+          id="a1-video"
+          class="clip a1-host-video"
+          data-start="0"
+          data-duration="68.133"
+          data-track-index="0"
+          src="assets/video/act1_2005.mp4"
+          muted
+          playsinline
+        ></video>
+      </div>
+      <div class="a1-host-scrim" data-layout-ignore></div>
+    </div>
+
+    <!-- Opening Chapter Banner (0.5s - 9.1s) -->
+    <div id="a1-chest-open" class="a1-chest">
+      <div class="a1-chest-kicker">ACT 1 · 2005 ARCHIVE</div>
+      <div class="a1-chest-title">THE NEW TIPIKOR COURT</div>
+    </div>
+
+    <!-- Full Desk: 2005 Newspaper + A.P. Dossier (9.3s - 27.7s) -->
+    <div id="a1-desk-ap" class="a1-desk">
+      <div class="a1-desk-grid" data-layout-ignore></div>
+      <div class="a1-paper-wrap">
+        <div id="a1-news-clip" class="a1-news-clip">
+          <div class="a1-news-mast">
+            <span>ARCHIVAL CLIPPING</span>
+            <span>APRIL 2005</span>
+          </div>
+          <div class="a1-news-head">SITTING GOVERNOR CONVICTED IN MI-2 HELICOPTER MARK-UP</div>
+        </div>
+
+        <div id="a1-dossier" class="a1-dossier">
+          <div class="a1-dos-top">
+            <div class="a1-dos-id">A.P.</div>
+          </div>
+          <div class="a1-dos-role">Governor of Nanggroe Aceh Darussalam</div>
+          <div class="a1-dos-fig-row">
+            <span class="a1-dos-fig-label">MI-2 HELICOPTER MARK-UP</span>
+            <span class="a1-dos-fig-val">Rp 13.6B</span>
+          </div>
+          <div id="a1-dos-sentence" class="a1-dos-sentence">APRIL 2005 · 10 YEARS PRISON</div>
+          <div id="a1-red-stamp" class="a1-red-stamp" data-layout-allow-overlap>FIRST TIPIKOR VERDICT</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Split Drawer: Regional DPRD Cases (27.7s - 53.2s) -->
+    <div id="a1-split-drawer" class="a1-split-drawer">
+      <div id="a1-dprd-intro" class="a1-dprd-card">
+        <div class="a1-dprd-kicker">REGIONAL PARLIAMENTS · 2005</div>
+        <div class="a1-dprd-city">COLLECTIVE BUDGET SKIMMING</div>
+        <div class="a1-dprd-stats">DPRD councils across Indonesia</div>
+      </div>
+
+      <div id="a1-dprd-padang" class="a1-dprd-card">
+        <div class="a1-dprd-kicker">PADANG CITY · DPRD</div>
+        <div class="a1-dprd-city">Rp 10.4 BILLION</div>
+        <div class="a1-dprd-stats">27 former members · 4-yr sentences</div>
+      </div>
+
+      <div id="a1-dprd-sumbar" class="a1-dprd-card">
+        <div class="a1-dprd-kicker">WEST SUMATRA · DPRD</div>
+        <div class="a1-dprd-city">Rp 6.4 BILLION</div>
+        <div class="a1-dprd-stats">43 provincial members implicated</div>
+      </div>
+    </div>
+
+    <!-- Full Desk: 5-City DPRD Cascade (53.2s - 61.6s) -->
+    <div id="a1-desk-cities" class="a1-desk">
+      <div class="a1-desk-grid" data-layout-ignore></div>
+      <div class="a1-cities-wrap">
+        <div class="a1-cities-head">CARVING UP REGIONAL BUDGETS</div>
+        <div class="a1-cities-sub">2005 LOCAL COUNCIL CASES</div>
+        <div class="a1-city-list">
+          <div id="a1-c1" class="a1-city-row"><span class="a1-city-name">SEMARANG</span><span class="a1-city-tag">APBD</span></div>
+          <div id="a1-c2" class="a1-city-row"><span class="a1-city-name">CIREBON</span><span class="a1-city-tag">APBD</span></div>
+          <div id="a1-c3" class="a1-city-row"><span class="a1-city-name">SOLO</span><span class="a1-city-tag">APBD</span></div>
+          <div id="a1-c4" class="a1-city-row"><span class="a1-city-name">MANADO</span><span class="a1-city-tag">APBD</span></div>
+          <div id="a1-c5" class="a1-city-row"><span class="a1-city-name">DONGGALA</span><span class="a1-city-tag">APBD</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Closing Chest Tag (61.8s - 67.8s) -->
+    <div id="a1-chest-close" class="a1-chest">
+      <div class="a1-chest-kicker">2005 SCALE CHECK</div>
+      <div class="a1-chest-title">BILLIONS ALMOST LOOK SMALL</div>
+    </div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    // Initial states (immediate gsap.set outside timeline)
+    gsap.set("#a1-host-cam", { scale: 1, y: 0 });
+    gsap.set("#a1-chest-open", { opacity: 0, x: -36 });
+    gsap.set("#a1-desk-ap", { opacity: 0, y: 60, visibility: "hidden" });
+    gsap.set("#a1-news-clip", { opacity: 0, y: -24 });
+    gsap.set("#a1-dossier", { opacity: 0, y: 40 });
+    gsap.set("#a1-red-stamp", { opacity: 0, scale: 1.9, rotation: -10 });
+    gsap.set("#a1-dos-sentence", { opacity: 0, y: 18 });
+    gsap.set("#a1-split-drawer", { opacity: 0, y: 260, visibility: "hidden" });
+    gsap.set(["#a1-dprd-intro", "#a1-dprd-padang", "#a1-dprd-sumbar"], { opacity: 0, x: 40, visibility: "hidden" });
+    gsap.set("#a1-desk-cities", { opacity: 0, y: 50, visibility: "hidden" });
+    gsap.set(["#a1-c1", "#a1-c2", "#a1-c3", "#a1-c4", "#a1-c5"], { opacity: 0, x: -50 });
+    gsap.set("#a1-chest-close", { opacity: 0, x: -36 });
+
+    // 0.5s -> 9.0s: Opening chapter banner on host
+    tl.fromTo("#a1-chest-open", { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.4, ease: "expo.out" }, 0.5);
+    tl.fromTo("#a1-chest-open", { opacity: 1, x: 0 }, { opacity: 0, x: 24, duration: 0.28, ease: "power3.in", immediateRender: false }, 8.9);
+
+    // 9.3s -> 27.6s: Newspaper clipping + A.P. Dossier
+    tl.set("#a1-desk-ap", { visibility: "visible" }, 9.25);
+    tl.fromTo("#a1-desk-ap", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.42, ease: "expo.out" }, 9.28);
+    tl.fromTo("#a1-news-clip", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.42, ease: "power4.out" }, 9.5);
+    tl.fromTo("#a1-dossier", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.48, ease: "expo.out" }, 11.2);
+
+    // 15.0s ("convicted"): FIRST TIPIKOR VERDICT crimson stamp slams down
+    tl.fromTo(
+      "#a1-red-stamp",
+      { opacity: 0, scale: 1.9, rotation: -10 },
+      { opacity: 1, scale: 1, rotation: -5, duration: 0.24, ease: "back.out(1.3)" },
+      15.0
+    );
+
+    // 22.3s ("April 2005, judges sentenced him to 10 years"): Sentence strip lands
+    tl.fromTo("#a1-dos-sentence", { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.36, ease: "power4.out" }, 22.3);
+
+    // Exit A.P. desk at 27.5s -> Enter Split-View (Host framed top y=0..760)
+    tl.fromTo("#a1-desk-ap", { opacity: 1, y: 0 }, { opacity: 0, y: -60, duration: 0.32, ease: "power3.in", immediateRender: false }, 27.45);
+    tl.set("#a1-desk-ap", { visibility: "hidden" }, 27.8);
+
+    // Reframe host edge-to-edge (scale 1, zero sidebars!) so face sits cleanly in top half
+    tl.fromTo("#a1-host-cam", { scale: 1, y: 0 }, { scale: 1, y: -230, duration: 0.5, ease: "power2.inOut" }, 27.6);
+    tl.set("#a1-split-drawer", { visibility: "visible" }, 27.65);
+    tl.fromTo("#a1-split-drawer", { opacity: 0, y: 240 }, { opacity: 1, y: 0, duration: 0.45, ease: "expo.out" }, 27.7);
+
+    // 28.0s -> 34.6s: DPRD Intro card
+    tl.set("#a1-dprd-intro", { visibility: "visible" }, 27.95);
+    tl.fromTo("#a1-dprd-intro", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.38, ease: "expo.out" }, 28.0);
+    tl.fromTo("#a1-dprd-intro", { opacity: 1, x: 0 }, { opacity: 0, x: -40, duration: 0.25, ease: "power3.in", immediateRender: false }, 34.4);
+    tl.set("#a1-dprd-intro", { visibility: "hidden" }, 34.68);
+
+    // 34.7s -> 44.8s: Padang City card
+    tl.set("#a1-dprd-padang", { visibility: "visible" }, 34.7);
+    tl.fromTo("#a1-dprd-padang", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.38, ease: "expo.out" }, 34.72);
+    tl.fromTo("#a1-dprd-padang", { opacity: 1, x: 0 }, { opacity: 0, x: -40, duration: 0.25, ease: "power3.in", immediateRender: false }, 44.6);
+    tl.set("#a1-dprd-padang", { visibility: "hidden" }, 44.86);
+
+    // 44.9s -> 53.0s: West Sumatra card
+    tl.set("#a1-dprd-sumbar", { visibility: "visible" }, 44.88);
+    tl.fromTo("#a1-dprd-sumbar", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.38, ease: "expo.out" }, 44.9);
+
+    // 53.1s: Exit Split Drawer -> Enter 5-City Cascade full desk
+    tl.fromTo("#a1-split-drawer", { opacity: 1, y: 0 }, { opacity: 0, y: 180, duration: 0.3, ease: "power3.in", immediateRender: false }, 53.05);
+    tl.set("#a1-split-drawer", { visibility: "hidden" }, 53.38);
+
+    tl.set("#a1-desk-cities", { visibility: "visible" }, 53.18);
+    tl.fromTo("#a1-desk-cities", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.36, ease: "expo.out" }, 53.2);
+    tl.fromTo("#a1-c1", { opacity: 0, x: -46 }, { opacity: 1, x: 0, duration: 0.26, ease: "power4.out" }, 53.5);
+    tl.fromTo("#a1-c2", { opacity: 0, x: -46 }, { opacity: 1, x: 0, duration: 0.26, ease: "power4.out" }, 54.3);
+    tl.fromTo("#a1-c3", { opacity: 0, x: -46 }, { opacity: 1, x: 0, duration: 0.26, ease: "power4.out" }, 54.9);
+    tl.fromTo("#a1-c4", { opacity: 0, x: -46 }, { opacity: 1, x: 0, duration: 0.26, ease: "power4.out" }, 55.4);
+    tl.fromTo("#a1-c5", { opacity: 0, x: -46 }, { opacity: 1, x: 0, duration: 0.26, ease: "power4.out" }, 56.1);
+
+    // 61.5s ("Next to today's numbers..."): Reset host full-frame with slight upward punch-in + closing chest card
+    tl.set("#a1-host-cam", { scale: 1.06, y: -40 }, 61.3);
+    tl.fromTo("#a1-desk-cities", { opacity: 1, y: 0 }, { opacity: 0, y: -50, duration: 0.3, ease: "power3.in", immediateRender: false }, 61.45);
+    tl.set("#a1-desk-cities", { visibility: "hidden" }, 61.78);
+
+    tl.fromTo("#a1-chest-close", { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.38, ease: "expo.out" }, 62.0);
+    tl.fromTo("#a1-chest-close", { opacity: 1 }, { opacity: 0, duration: 0.24, ease: "power2.in", immediateRender: false }, 67.65);
+
+    window.__timelines["act1-2005"] = tl;
+  </script>
+</template>
